@@ -19,7 +19,7 @@ You can make the [Zerif Lite](https://wordpress.org/themes/zerif-lite/) theme Pe
 
 = Fa =
 * با سفارشی کردن این افزونه می توانید به راحتی برای پوسته های خود یک افزونه فارسی ساز طراحی کنید.
-* روش استفاده از این افزونه را در [ توضیحات فارسی ساز نسیم ] (http://nasimnet.ir/nasim-persian-maker/) دنبال کنید.
+* روش استفاده از این افزونه را در [توضیحات فارسی ساز نسیم](http://nasimnet.ir/nasim-persian-maker/) دنبال کنید.
 
 == Installation ==
 1. Install and Activate Zerif Lite theme
