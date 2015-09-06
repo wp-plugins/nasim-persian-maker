@@ -1,0 +1,1055 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Discovery\n"
+"POT-Creation-Date: 2015-06-30 21:24-0000\n"
+"PO-Revision-Date: 2015-08-22 00:56-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__e;_;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPath-2: .\n"
+
+#: ../404.php:12
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "وای! این صفحه را نمی توان یافت."
+
+#: ../404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try navigating to "
+"another page or a search?"
+msgstr "به نظر می رسد چیزی دراین قسمت وجود ندارد، شاید بخواهید جستجو کنید."
+
+#: ../archive.php:17
+#, php-format
+msgid "Category Archives: %s"
+msgstr "آرشیو موضوعی:  %s"
+
+#: ../archive.php:20
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "بایگانی برچسب: %s"
+
+#: ../archive.php:27
+#, php-format
+msgid "Author Archives: %s"
+msgstr "آرشیو نویسنده :  %s"
+
+#: ../archive.php:35
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "آرشیو روزانه: %s"
+
+#: ../archive.php:38
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "بایگانی ماهیانه:  %s"
+
+#: ../archive.php:41
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "آرشیو سالانه: %s"
+
+#: ../archive.php:44 ../sidebar.php:18
+msgid "Archives"
+msgstr "بایگانی"
+
+#: ../comments.php:39 ../comments.php:59
+msgid "Comment navigation"
+msgstr "پیمایش نظرات"
+
+#: ../comments.php:40 ../comments.php:60
+msgid "&larr; Older Comments"
+msgstr " %sOlder نظرات قدیمی تر"
+
+#: ../comments.php:41 ../comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "نظرات جدید  &rarr;"
+
+#: ../comments.php:71
+msgid "Comments are closed."
+msgstr "نظرات بسته شده اند."
+
+#: ../content-aside.php:11 ../content-aside.php:20 ../content.php:18
+#, php-format
+msgid "Permalink to %s"
+msgstr "لینک ثابت: %s"
+
+#: ../content-aside.php:15
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "ادامه مطلب <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../content-aside.php:16 ../content-page.php:11 ../content-single.php:21
+#: ../content.php:63 ../image.php:86
+msgid "Pages:"
+msgstr "صفحه:"
+
+#: ../content-aside.php:23
+msgid "Leave a comment"
+msgstr "دیدگاهی ارسال کنید"
+
+#: ../content-aside.php:23 ../content.php:48
+msgid "1 Comment"
+msgstr "دیدگاه"
+
+#: ../content-aside.php:23 ../content.php:48
+msgid "% Comments"
+msgstr "%  دیدگاه"
+
+#: ../content-aside.php:26 ../content-page.php:13 ../content-single.php:59
+#: ../content.php:51 ../image.php:34 ../image.php:100
+msgid "Edit"
+msgstr "ویرایش"
+
+#: ../content-flexslider.php:18 ../content.php:62
+msgid "Read More"
+msgstr "بیشتر"
+
+#. translators: used between list items, there is a space after the comma
+#: ../content-single.php:27 ../content.php:26 ../content.php:36
+msgid ", "
+msgstr ","
+
+#: ../content-single.php:35
+#, php-format
+msgid ""
+" Tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel="
+"\"bookmark\">permalink</a>."
+msgstr ""
+"برچسب ها : %2$s. بوکمارک کنید : <a href=\"%3$s\" rel=\"bookmark%4$s \">لینک "
+"ثابت</a>."
+
+#: ../content-single.php:37
+#, php-format
+msgid ""
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+"پیوند به  <a href=\"%3$s\" title=\"پیوند یکتا به %4$s\" rel=\"bookmark"
+"\">پیوند یکتا</a>."
+
+#: ../content-single.php:43
+#, php-format
+msgid ""
+"In %1$s &nbsp; Tagged %2$s &nbsp; Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"این نوشته در %1$s ارسال شده است و %2$s برچسب خورده. <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">مطلب</a> را نشانه گذاری کنید."
+
+#: ../content-single.php:45
+#, php-format
+msgid ""
+"In %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel="
+"\"bookmark\">permalink</a>."
+msgstr "بوکمارک <a href=\"%3$s\" rel=\"bookmark\">لینک</a>."
+
+#: ../content.php:30
+#, php-format
+msgid " In %1$s"
+msgstr "در %1$s"
+
+#: ../content.php:41
+#, php-format
+msgid "Tagged %1$s"
+msgstr "برچسب:  %1$s"
+
+#: ../content.php:48
+msgid " Leave a comment"
+msgstr ""
+
+#: ../footer.php:21 ../footer.php:30 ../footer.php:40
+#: ../page-templates/twocolleftsidebar.php:33
+msgid "Widget Ready"
+msgstr "ابزارک"
+
+#: ../footer.php:22 ../page-templates/twocolleftsidebar.php:34
+msgid "This left column is widget ready! Add one in the admin panel."
+msgstr ""
+
+#: ../footer.php:31
+msgid "This center column is widget ready! Add one in the admin panel."
+msgstr ""
+
+#: ../footer.php:41
+msgid "This right column is widget ready! Add one in the admin panel."
+msgstr ""
+
+#: ../footer.php:49
+msgid "Brasserie WordPress Theme"
+msgstr ""
+
+#: ../footer.php:50
+msgid "Powered By WordPress "
+msgstr "قدرت گرفته از وردپرس"
+
+#: ../functions.php:56
+msgid "Primary Menu"
+msgstr "منوی اصلی"
+
+#: ../functions.php:72
+msgid "Team Member"
+msgstr ""
+
+#: ../functions.php:130
+msgid "Primary Sidebar"
+msgstr "سایدبار اصلی"
+
+#: ../functions.php:139
+msgid "Secondary Sidebar"
+msgstr "سایدبار دوم"
+
+#: ../functions.php:148
+msgid "Left Sidebar"
+msgstr "سایدبار چپ"
+
+#: ../functions.php:157
+msgid "Left Footer Column"
+msgstr ""
+
+#: ../functions.php:159
+msgid "Widget area for footer left column"
+msgstr ""
+
+#: ../functions.php:166
+msgid "Center Footer Column"
+msgstr ""
+
+#: ../functions.php:168
+msgid "Widget area for footer center column"
+msgstr ""
+
+#: ../functions.php:175
+msgid "Right Footer Column"
+msgstr ""
+
+#: ../functions.php:177
+msgid "Widget area for footer right column"
+msgstr ""
+
+#: ../functions.php:289
+#, php-format
+msgid "Page %s"
+msgstr "برگه %s"
+
+#: ../header.php:72
+msgid "Menu"
+msgstr "فهرست"
+
+#: ../header.php:73
+msgid "Skip to content"
+msgstr ""
+
+#: ../image.php:24
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-"
+"size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s"
+"\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+"منتشر شده <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\" pubdate>%2$s</time></span> در <a href=\"%3$s\" title=\"Link to full-"
+"size image\">%4$s &times; %5$s</a> در <a href=\"%6$s\" title=\"Return to %7$s"
+"\" rel=\"gallery\">%7$s</a>"
+
+#: ../image.php:38
+msgid "&larr; Previous"
+msgstr "&larr; قبلی"
+
+#: ../image.php:39
+msgid "Next &rarr;"
+msgstr "بعدی &rarr;"
+
+#: ../image.php:92
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"ارسال نظر\">یک نظر ارسال "
+"کنید</a> یا گزارشی بدهید <a class=\"trackback-link\" href=\"%s\" title="
+"\"نشانی گزارش برای پست\" rel=\"trackback\">نشانی گزارش</a>."
+
+#: ../image.php:94
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">یک نظر "
+"ارسال کنید</a> یا یک بازتاب ارسال کنید: <a class=\"trackback-link\" href=\"%s"
+"\" title=\"نشانی ارسال بازتاب برای این نوشته\" rel=\"trackback\">نشانی "
+"بازتاب</a>."
+
+#: ../image.php:96
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+"گزارش دهی غیرفعال است، اما میتوانید <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">یک نظر ارسال کنید</a>."
+
+#: ../image.php:98
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: ../inc/customizer.php:18
+msgid "Site Colors"
+msgstr "رنگ سایت"
+
+#: ../inc/customizer.php:22
+msgid "Homepage Settings"
+msgstr "تنظیمات صفحه اصلی"
+
+#: ../inc/customizer.php:55
+msgid "Theme Highlight Color"
+msgstr ""
+
+#: ../inc/customizer.php:66
+msgid "Homepage - Slider"
+msgstr "اسلایدر صفحه اصلی"
+
+#: ../inc/customizer.php:67
+msgid ""
+"Choose your homepage slider type. The Flexslider option will display posts "
+"from the Featured category"
+msgstr ""
+
+#: ../inc/customizer.php:80
+msgid "No Slider"
+msgstr ""
+
+#: ../inc/customizer.php:81
+msgid "FlexSlider"
+msgstr ""
+
+#: ../inc/customizer.php:86
+msgid "Select Slider"
+msgstr ""
+
+#: ../inc/customizer.php:102 ../inc/customizer.php:109
+msgid "Site Logo"
+msgstr "لوگو سایت"
+
+#: ../inc/customizer.php:103
+msgid ""
+"Upload a logo to replace the default site name and description in the header"
+msgstr ""
+
+#: ../inc/customizer.php:121
+msgid "Top Bar Contact Details"
+msgstr ""
+
+#: ../inc/customizer.php:122
+msgid ""
+"This is a settings section to change the contact details in the top bar of "
+"header."
+msgstr ""
+
+#: ../inc/customizer.php:128
+msgid "tel number"
+msgstr ""
+
+#: ../inc/customizer.php:135
+msgid "email"
+msgstr ""
+
+#: ../inc/customizer.php:143
+msgid "Telephone Number"
+msgstr "شماره تماس"
+
+#: ../inc/customizer.php:151
+msgid "Email Address"
+msgstr "پست الکترونیک"
+
+#: ../inc/customizer.php:164
+msgid "Homepage - Promotion Bar"
+msgstr ""
+
+#: ../inc/customizer.php:165
+msgid "Add a url address for the button to show in the promotion bar."
+msgstr ""
+
+#: ../inc/customizer.php:171
+msgid "Default Featured Text"
+msgstr "متن  پیش فرض"
+
+#: ../inc/customizer.php:178
+msgid "Find Out More"
+msgstr "اطلاعات بیشتر"
+
+#: ../inc/customizer.php:227
+msgid "Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:241
+msgid "Title text Color"
+msgstr ""
+
+#: ../inc/customizer.php:254
+msgid "Button Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:267
+msgid "Button Text Color"
+msgstr ""
+
+#: ../inc/customizer.php:277
+msgid "Featured Text"
+msgstr ""
+
+#: ../inc/customizer.php:286
+msgid "Button Text"
+msgstr ""
+
+#: ../inc/customizer.php:294
+msgid "URL Link to Page"
+msgstr ""
+
+#: ../inc/customizer.php:313
+msgid "Twitter url"
+msgstr "آدرس صفحه توییتر"
+
+#: ../inc/customizer.php:314
+msgid "Facebook url"
+msgstr "آدرس صفحه فیسبوک"
+
+#: ../inc/customizer.php:315
+msgid "Google + url"
+msgstr "آدرس صفحه گوگل پلاس"
+
+#: ../inc/customizer.php:316
+msgid "LinkedIn url"
+msgstr ""
+
+#: ../inc/customizer.php:317
+msgid "Flickr url"
+msgstr ""
+
+#: ../inc/customizer.php:318
+msgid "Pinterest url"
+msgstr ""
+
+#: ../inc/customizer.php:319
+msgid "YouTube url"
+msgstr ""
+
+#: ../inc/customizer.php:320
+msgid "Vimeo url"
+msgstr ""
+
+#: ../inc/customizer.php:321
+msgid "Tumblr url"
+msgstr ""
+
+#: ../inc/customizer.php:322
+msgid "Dribbble url"
+msgstr ""
+
+#: ../inc/customizer.php:323
+msgid "Github url"
+msgstr ""
+
+#: ../inc/customizer.php:324
+msgid "Instagram url"
+msgstr ""
+
+#: ../inc/customizer.php:325
+msgid "Xing url"
+msgstr ""
+
+#: ../inc/customizer.php:384
+msgid "Image 1"
+msgstr ""
+
+#: ../inc/customizer.php:385
+msgid "Image 2"
+msgstr ""
+
+#: ../inc/customizer.php:386
+msgid "Image 3"
+msgstr ""
+
+#: ../inc/customizer.php:387
+msgid "Image 4"
+msgstr ""
+
+#: ../inc/customizer.php:391
+msgid "Homepage - Todays Specials"
+msgstr ""
+
+#: ../inc/customizer.php:392
+msgid "You can list up to 4 images of todays specials here."
+msgstr ""
+
+#: ../inc/customizer.php:398
+msgid "Specials"
+msgstr ""
+
+#: ../inc/customizer.php:404
+msgid "Specials Title"
+msgstr ""
+
+#: ../inc/customizer.php:434
+msgid "Image Upload"
+msgstr ""
+
+#: ../inc/customizer.php:447 ../inc/customizer.php:523
+msgid "Web URL"
+msgstr ""
+
+#: ../inc/customizer.php:476
+msgid "Feature Text Box 1"
+msgstr ""
+
+#: ../inc/customizer.php:477
+msgid "Feature Text Box 2"
+msgstr ""
+
+#: ../inc/customizer.php:478
+msgid "Feature Text Box 3"
+msgstr ""
+
+#: ../inc/customizer.php:481
+msgid "Homepage - Feature Text Boxes"
+msgstr ""
+
+#: ../inc/customizer.php:482
+msgid "You can populate up to 3 Feature Text boxes"
+msgstr ""
+
+#: ../inc/customizer.php:508
+msgid "File Upload"
+msgstr ""
+
+#: ../inc/customizer.php:518
+msgid "Header URL"
+msgstr ""
+
+#: ../inc/customizer.php:533
+msgid "Default featured text Header"
+msgstr "متن پیش فرض سربرگ"
+
+#: ../inc/customizer.php:539
+msgid "Header text"
+msgstr ""
+
+#: ../inc/customizer.php:549
+msgid "Default featured text"
+msgstr "متن  پیش فرض"
+
+#: ../inc/customizer.php:555
+msgid "Sub-text"
+msgstr ""
+
+#: ../inc/customizer.php:604
+msgid "Ultra Light"
+msgstr ""
+
+#: ../inc/customizer.php:605
+msgid "Ultra Light Italic"
+msgstr ""
+
+#: ../inc/customizer.php:606
+msgid "Light"
+msgstr ""
+
+#: ../inc/customizer.php:607
+msgid "Light Italic"
+msgstr ""
+
+#: ../inc/customizer.php:608
+msgid "Book"
+msgstr ""
+
+#: ../inc/customizer.php:609
+msgid "Book Italic"
+msgstr ""
+
+#: ../inc/customizer.php:610
+msgid "Regular"
+msgstr ""
+
+#: ../inc/customizer.php:611
+msgid "Regular Italic"
+msgstr ""
+
+#: ../inc/customizer.php:612
+msgid "Medium"
+msgstr ""
+
+#: ../inc/customizer.php:613
+msgid "Medium Italic"
+msgstr ""
+
+#: ../inc/customizer.php:614
+msgid "Semi-Bold"
+msgstr ""
+
+#: ../inc/customizer.php:615
+msgid "Semi-Bold Italic"
+msgstr ""
+
+#: ../inc/customizer.php:616
+msgid "Bold"
+msgstr ""
+
+#: ../inc/customizer.php:617
+msgid "Bold Italic"
+msgstr ""
+
+#: ../inc/customizer.php:618
+msgid "Extra Bold"
+msgstr ""
+
+#: ../inc/customizer.php:619
+msgid "Extra Bold Italic"
+msgstr ""
+
+#: ../inc/customizer.php:620
+msgid "Ultra Bold"
+msgstr ""
+
+#: ../inc/customizer.php:621
+msgid "Ultra Bold Italic"
+msgstr ""
+
+#: ../inc/customizer.php:628 ../inc/customizer.php:701
+msgid "Body Text"
+msgstr ""
+
+#: ../inc/customizer.php:629 ../inc/customizer.php:702
+msgid "Headers"
+msgstr ""
+
+#: ../inc/customizer.php:638
+msgid "Typography"
+msgstr ""
+
+#: ../inc/customizer.php:639
+msgid ""
+"<strong>Note.</strong><br />Please enable tags section checkbox for activate "
+"and use Google Web Fonts on selected tags."
+msgstr ""
+
+#: ../inc/customizer.php:660
+msgid "Font Family"
+msgstr ""
+
+#: ../inc/customizer.php:672
+msgid "Font Weight"
+msgstr ""
+
+#: ../inc/customizer.php:816
+msgid "Hide Slider Section?"
+msgstr ""
+
+#: ../inc/customizer.php:817
+msgid "Hide Feature Box Section?"
+msgstr ""
+
+#: ../inc/customizer.php:818
+msgid "Hide Promo Bar?"
+msgstr ""
+
+#: ../inc/customizer.php:819
+msgid "Hide Recent Posts?"
+msgstr ""
+
+#: ../inc/customizer.php:820
+msgid "Hide Specials Section?"
+msgstr ""
+
+#: ../inc/customizer.php:825
+msgid "Homepage - Hide/Show elements"
+msgstr ""
+
+#: ../inc/customizer.php:826
+msgid ""
+"Hide elements you don't need on the homepage by un-checking the relevant "
+"checkbox."
+msgstr ""
+
+#: ../inc/template-tags.php:39
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../inc/template-tags.php:53
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../inc/template-tags.php:78
+msgid "Pingback:"
+msgstr "بازتاب:"
+
+#: ../inc/template-tags.php:78 ../inc/template-tags.php:101
+msgid "(Edit)"
+msgstr "ویرایش"
+
+#: ../inc/template-tags.php:88
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">گفته:</span>"
+
+#: ../inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: ../inc/template-tags.php:99
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../inc/template-tags.php:126
+#, php-format
+msgid ""
+" <span class=\"pub-link\"><i class=\"fa fa-clock-o\"></i><a href=\"%1$s\" "
+"title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" "
+"pubdate>%4$s</time></a></span><span class=\"byline\"><i class=\"fa fa-user"
+"\"></i> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" "
+"title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+" <span class=\"pub-link\"><i class=\"fa fa-clock-o\"></i><a href=\"%1$s\" "
+"title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" "
+"pubdate>%4$s</time></a></span><span class=\"byline\"><i class=\"fa fa-user"
+"\"></i> توسط <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s"
+"\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: ../inc/template-tags.php:132
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../no-results.php:14
+msgid "Nothing Found"
+msgstr "چیزی یافت نشد"
+
+#: ../no-results.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "متاسفانه جستحو نتیجه  ای در بر نداشت."
+
+#: ../no-results.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "ما نمی&rsquoتوانیم تنیجه دلخواه ش&rsquo;ما را پیدا کنیم."
+
+#: ../page-templates/custom_home.php:32
+msgid "slideInLeft"
+msgstr ""
+
+#: ../page-templates/custom_home.php:33
+msgid "fadeInUp"
+msgstr ""
+
+#: ../page-templates/custom_home.php:34
+msgid "slideInRight"
+msgstr ""
+
+#: ../page-templates/custom_home.php:45
+msgid "Find out more"
+msgstr ""
+
+#: ../page-templates/custom_home.php:60 ../page-templates/custom_home.php:121
+#: ../page-templates/custom_home.php:130 ../page-templates/custom_home.php:139
+#: ../page-templates/custom_home.php:148
+msgid "Insert Image"
+msgstr "اضافه کردن عکس"
+
+#: ../page-templates/custom_home.php:76
+msgid "From the blog"
+msgstr "آخرین اخبار ما"
+
+#: ../page-templates/custom_home.php:113
+msgid "Todays Specials"
+msgstr ""
+
+#: ../page-templates/custom_home.php:119
+msgid "special one"
+msgstr ""
+
+#: ../page-templates/custom_home.php:128
+msgid "special two"
+msgstr ""
+
+#: ../page-templates/custom_home.php:137
+msgid "special three"
+msgstr ""
+
+#: ../page-templates/custom_home.php:146
+msgid "special four"
+msgstr ""
+
+#: ../search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr "جستجو برای: %s"
+
+#: ../searchform.php:10
+msgid "Search"
+msgstr "جستجو"
+
+#: ../sidebar.php:25
+msgid "Meta"
+msgstr "اطلاعات نوشته"
+
+#~ msgid ""
+#~ "It looks like nothing was found at this location. Maybe try one of the "
+#~ "links below or a search?"
+#~ msgstr ""
+#~ "بنظر می رسد صفحه دلخواه شما یافت شد.شاید جستجو با کلمات دیگر بتواند به "
+#~ "شما کمک کند."
+
+#~ msgid "Most Used Categories"
+#~ msgstr "دسته بندی های محبوب"
+
+#~ msgid "Try looking in the monthly archives. %1$s"
+#~ msgstr "به بایگانی ماهانه نگاهی بیاندازید %1$s"
+
+#~ msgid ""
+#~ "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s"
+#~ "\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+#~ msgstr ""
+#~ "نوشته شده در %1$s . برچسب: %2$s Bookmark the <a href=\"%3$s\" title="
+#~ "\"Permalink to %4$s\" rel=\"bookmark\">پیوند یکتا</a>."
+
+#~ msgid ""
+#~ "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
+#~ "\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+#~ msgstr ""
+#~ "نوشته شده در %1$s. پیوند به <a href=\"%3$s\" title=\"پیوند به %4$s\" rel="
+#~ "\"bookmark\">پیوند یکتا</a>."
+
+#~ msgid "Posted in %1$s"
+#~ msgstr "نوشته شده در %1$s"
+
+#~ msgid "Discovery Pro WordPress Theme"
+#~ msgstr "Discovery Pro WordPress Theme"
+
+#~ msgid "Home"
+#~ msgstr "خانه"
+
+#~ msgid "Archive by Category \"%s\""
+#~ msgstr "دسته بندی آرشیو \"%s\""
+
+#~ msgid "Search Results for \"%s\" Query"
+#~ msgstr "نتایج جستجو برای \"%s\""
+
+#~ msgid "Posts Tagged \"%s\""
+#~ msgstr "برچسب های مطالب \"%s\""
+
+#~ msgid "Articles Posted by %s"
+#~ msgstr "نوشته شده توسط %s"
+
+#~ msgid "Error 404"
+#~ msgstr "خطای ۴۰۴"
+
+#~ msgid "Page"
+#~ msgstr "صفحه"
+
+#~ msgid "&mdash; Select &mdash;"
+#~ msgstr "&mdash; انتخاب  &mdash;"
+
+#~ msgid "Mobile Number"
+#~ msgstr "شماره تلفن همراه"
+
+#~ msgid "Address"
+#~ msgstr "نشانی"
+
+#~ msgid "One"
+#~ msgstr "یک"
+
+#~ msgid "Service Box One"
+#~ msgstr "جعبه سرویس یک"
+
+#~ msgid "Two"
+#~ msgstr "دو"
+
+#~ msgid "Service Box Two"
+#~ msgstr "جعبه سرویس دو"
+
+#~ msgid "Three"
+#~ msgstr "سه"
+
+#~ msgid "Service Box Three"
+#~ msgstr "جعبه سرویس سه"
+
+#~ msgid "Partners logo 1"
+#~ msgstr "لوگوی شرکای تجاری 1"
+
+#~ msgid "Partners logo 2"
+#~ msgstr "لوگوی شرکای تجاری 2"
+
+#~ msgid "Partners logo 3"
+#~ msgstr "لوگوی شرکای تجاری 3"
+
+#~ msgid "Four"
+#~ msgstr "چهار"
+
+#~ msgid "Partners logo 4"
+#~ msgstr "لوگوی شرکای تجاری 4"
+
+#~ msgid "Site Settings"
+#~ msgstr "تنظیمات سایت"
+
+#~ msgid "Favicon & App Icons"
+#~ msgstr "فاو ایکون و ایکون اپ"
+
+#~ msgid "Header Contact Details"
+#~ msgstr "اطلاعات تماس (سربرگ)"
+
+#~ msgid "Add contact details that will appear in the header of your site."
+#~ msgstr "اظلاعات تماس خود را وارد کنید"
+
+#~ msgid "Social Media Accounts"
+#~ msgstr "حساب شبکه های اجتماعی"
+
+#~ msgid "Setup your social media accounts here."
+#~ msgstr "نمایش آیکون‌های رسانه‌های اجتماعی"
+
+#~ msgid "Footer Settings"
+#~ msgstr "تنظیمات پانویس"
+
+#~ msgid "Change/hide content in the footer."
+#~ msgstr "تغییر/پنهان کردن محتوا در پاورقی."
+
+#~ msgid "Color Scheme"
+#~ msgstr "طرح کلی رنگ"
+
+#~ msgid "Click on a color for a preview of a color scheme"
+#~ msgstr "برای پیش نمایش رنگی را انتخاب کنید"
+
+#~ msgid "Homepage Slider"
+#~ msgstr "اسلایدر صفحه اصلی"
+
+#~ msgid "Control the homepage slider"
+#~ msgstr "تنظیمات اسلایدر صفحه اصلی"
+
+#~ msgid "Featured Promo Bar"
+#~ msgstr "نوار تبلیغی"
+
+#~ msgid "Create a eye catching \"call to action\""
+#~ msgstr "ایجاد یک دکمه \"فراخوانی برای اقدام\" CTA"
+
+#~ msgid "Service Section Settings"
+#~ msgstr "تنظیمات بخش خدمات"
+
+#~ msgid "Change the title and control the display."
+#~ msgstr "تنظمیات عنوان و کنترل نحوه نمایش"
+
+#~ msgid ""
+#~ "This is a settings section to change the custom homepage services box."
+#~ msgstr "بخش تنظیمات باکس خدمات"
+
+#~ msgid "Recent Posts Section Settings"
+#~ msgstr "تنظمیات بخش اخرین نوشته ها"
+
+#~ msgid "Partners Section Settings"
+#~ msgstr "تنظیمات بخش شرکای تجاری"
+
+#~ msgid ""
+#~ "This is a settings section to change the Custom Homepage Partners logo 1."
+#~ msgstr "بخش تنظیمات شرکای تجاری 1"
+
+#~ msgid "Authors Template Settings"
+#~ msgstr "تنظیمات نویسنده"
+
+#~ msgid "Services"
+#~ msgstr "امکانات"
+
+#~ msgid "Header Link"
+#~ msgstr "لینک سربرگ"
+
+#~ msgid "Recent Posts"
+#~ msgstr "آخرین نوشته ها"
+
+#~ msgid "Partners"
+#~ msgstr "همکاران"
+
+#~ msgid "Link"
+#~ msgstr "پیوند"
+
+#~ msgid "Made by Template Express"
+#~ msgstr "فارسی شده توسط همیار وردپرس"
+
+#~ msgid "Upload Favicon"
+#~ msgstr "بارگذاری فاو آیکون"
+
+#~ msgid "Upload Apple App Icon"
+#~ msgstr "بارگزاری اپ ایکون اپل"
+
+#~ msgid "Logo"
+#~ msgstr "لوگو"
+
+#~ msgid "Retina Logo"
+#~ msgstr "لوگوی رتینا"
+
+#~ msgid "Choose a color scheme"
+#~ msgstr "انتخاب طرح رنگ"
+
+#~ msgid "Red"
+#~ msgstr "قرمز"
+
+#~ msgid "Pink"
+#~ msgstr "صورتی"
+
+#~ msgid "Turquoise"
+#~ msgstr "فیروزه‌ای"
+
+#~ msgid "Hide Homepage Slider"
+#~ msgstr "پنهان کردن اسلایدر صفحه اصلی"
+
+#~ msgid "Select Featured Category"
+#~ msgstr "انتخاب دسته"
+
+#~ msgid "Amount of slides to display"
+#~ msgstr "تعداد اسلایدها در اسلایدر"
+
+#~ msgid "Hide Services Section"
+#~ msgstr "مخفی کردن بخش خدمات"
+
+#~ msgid "Hide Footer Widgets"
+#~ msgstr "پنهان کردن ابزارک های پانوشت"
+
+#~ msgid "Add User Id's"
+#~ msgstr "افزودن شناسه کاربری"
+
+#~ msgid "Hide Page Content"
+#~ msgstr "مخفی کردن برگه محتوا"
+
+#~ msgid "Display Content below User Profiles"
+#~ msgstr "نمایش محتوا زیر پروفایل کاربر"
+
+#~ msgid ""
+#~ " <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date"
+#~ "\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> by "
+#~ "<span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title="
+#~ "\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+#~ msgstr ""
+#~ " <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date"
+#~ "\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> توسط "
+#~ "<span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title="
+#~ "\"%6$s\" rel=\"author\">%7$s</a></span></span>"

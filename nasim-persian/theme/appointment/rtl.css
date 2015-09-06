@@ -1,0 +1,876 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+.blog-btn-sm,.page-breadcrumb,.slide-text-bg2 span ,.callout-btn1,.callout-btn2,.footer-widget-column ul li,.reply a,.sidebar-widget > ul > li > a{
+	  font-family: 'Droid Arabic Kufi' !important;
+	 font-weight: normal;
+}
+.blog-author img {
+    height: 120px;
+    width: 120px;
+}
+.pull-left {
+    float: right !important;
+}
+.sidebar-widget > ul > li {
+    display: block;
+    font-family: 'Droid Arabic Kufi';}
+html, body, div, h1, h2, h3, h4, h5, h6, input, textarea{
+	  font-family: 'Droid Arabic Kufi' !important;
+	 font-weight: normal;
+}
+
+p{
+	  font-family: 'Droid Arabic Kufi' !important;
+}
+
+.caret {
+    margin-right: 2px;
+	margin-left:0;
+	}
+#wrapper {
+    right: 0;
+	left: auto;
+}
+
+.head-contact-social {
+    float: left;
+    margin: 0px 35px 0px 0px;
+}
+
+.head-contact-social li {
+    margin-left: 0px;
+    margin-right:4px;
+}
+
+/*Homepage Carousel Bootstrap Slider Section------------------------------------------------------------------*/
+
+.slide-caption {
+    float: right;
+    right: 13.1%;
+    left: 0;
+}
+
+.slide-text-bg1 {
+    text-align: right;
+    float: right;
+}
+
+.slide-text-bg2 {
+    text-align: right;
+}
+
+.slide-btn-area-sm {
+    float: right;
+}
+
+/* Direction Nav */
+
+.carou-direction-nav .carou-prev {
+    right: 15px;
+	left: auto;
+}
+
+.carou-direction-nav .carou-next {
+    left: 15px;
+    text-align: left;
+	right: auto;
+}
+
+.carou-direction-nav :hover .carou-prev {
+    right: 30px;
+	left: auto;
+}
+
+.carou-direction-nav :hover .carou-next {
+    left: 30px;
+	right: auto;
+}
+
+/*Top Callout Section-------------------------------------------------------------------------------------------*/
+
+.contact-icon {
+    float: right;
+    margin: 0 0 0 25px;
+}
+
+/*Section Title-------------------------------------------------------------------------------------------------*/
+
+/*Service Section-----------------------------------------------------------------------------------------------*/
+
+.service-icon {
+    float: right;
+    margin: 0 0 0 30px;
+}
+
+/*Callout Section-----------------------------------------------------------------------------------------------*/
+
+/*Horizontaly Callout Section---------------------------------------------------------------------------------------------*/
+
+/*Portfolio Section Css----------------------------------------------------------------------------------------*/
+
+.portfolio-showcase-overlay {
+    right: 0;
+	left: auto;
+}
+
+.portfolio-showcase-overlay-inner {
+    right: 0;
+	left: auto;
+}
+
+.portfolio-image .portfolio-showcase-icons a {
+    margin-right: 2px;
+	margin-left: auto;
+}
+
+/*Project Pagination Scroll*/
+.project-scroll-btn {
+    margin-left: 0px;
+	margin-right: auto;
+}
+
+.project-scroll-btn li:first-child {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+.project-scroll-btn li {
+    margin-right: 5px;
+	margin-left: auto;
+}
+
+/* This Media for Project scroll*/
+
+.carousel-control.right,  .carousel-control.left {
+    margin-right:15px;
+	margin-left: auto;
+}
+
+@media (max-width: 767px) {
+
+.project-scroll-btn li {
+    margin-right: 5px;
+	margin-left: auto;
+}
+
+/* This Media for Project scroll*/
+
+.carousel-control.right,  .carousel-control.left {
+    margin-right:15px;
+	margin-left: auto;
+}
+
+}
+
+@media (min-width: 767px) and (max-width: 992px ) {
+
+/* This Media for Project scroll*/
+
+.carousel-control.right,  .carousel-control.left {
+    margin-right:15px;
+	margin-left: auto;
+}
+
+@media (max-width: 767px) {
+
+.project-scroll-btn li {
+    margin-right: 5px;
+	margin-left: auto;
+}
+
+/* This Media for Project scroll*/
+
+.carousel-control.right,  .carousel-control.left {
+    margin-right:15px;
+	margin-left: auto;
+}
+
+}
+
+}
+
+@media (min-width: 992px ) {
+
+.carousel-control.right,  .carousel-control.left {
+    margin-right:15px;
+	margin-left: auto;
+}
+
+@media (max-width: 767px) {
+
+.project-scroll-btn li {
+    margin-right: 5px;
+	margin-left: auto;
+}
+
+/* This Media for Project scroll*/
+
+.carousel-control.right,  .carousel-control.left {
+    margin-right:15px;
+	margin-left: auto;
+}
+
+}
+
+@media (min-width: 767px) and (max-width: 992px ) {
+
+/* This Media for Project scroll*/
+
+.carousel-control.right,  .carousel-control.left {
+    margin-right:15px;
+	margin-left: auto;
+}
+
+@media (max-width: 767px) {
+
+.project-scroll-btn li {
+    margin-right: 5px;
+	margin-left: auto;
+}
+
+/* This Media for Project scroll*/
+
+.carousel-control.right,  .carousel-control.left {
+    margin-right:15px;
+	margin-left: auto;
+}
+
+}
+
+}
+
+}
+
+/*Portfolio Tabs*/
+
+.portfolio-tabs li > a:before {
+    margin-left: 7px;
+	margin-right: auto;
+}
+
+/*Testimonial Section Css here---------------------------------------------------------------------------------*/
+
+.description-box:after {
+    right: -13px;
+	left: auto;
+}
+
+.testmonial-area h4 > span {
+    float: right;
+    margin-left: 3px;
+	margin-right: auto;
+}
+
+.author-box {
+    float: right;
+    margin: 0 0 20px 35px;
+}
+
+#testimonial {
+    right: 0 !important;
+	left: auto;
+}
+
+/*Testimonial Section Css here---------------------------------------------------------------------------------*/
+
+.blog-sm-box {
+    float: right;
+    margin: 0 0 0 25px;
+}
+
+/*Clients Section Css here---------------------------------------------------------------------------------*/
+
+.clients-title {
+    padding-left: 10px;
+	padding-right: 0;
+}
+
+.clients-desc {
+    padding-left: 10px;
+	padding-right: 0;
+}
+
+.clients-btn-area {
+    padding-left: 10px;
+	padding-right: 0;
+}
+
+.padding-10 {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+
+.clients-logo img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Top Callout Section----------------------------------------------------------------------------------------*/
+
+.footer-contact-icon {
+    float: right;
+    margin: 0 0 0 25px;
+}
+
+/*Footer Widget Section--------------------------------------------------------------------------------------*/
+
+.footer-addr-icon {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.footer-widget-address address {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.footer-blog-post span {
+    margin-left: 8px;
+	margin-right: auto;
+}
+
+.post-area {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.footer-widget-tags a {
+    margin: 0 0 9px 5px;
+}
+
+.footer-widget-column > ul > li > a:before {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.footer-contact-social {
+    float: left;
+}
+
+.footer-contact-social li {
+    margin-left: 0px;
+	margin-right: auto;
+}
+
+/*Page Title Section Css-------------------------------------------------------------------------------------*/
+
+.page-breadcrumb {
+    text-align: left;
+}
+.pull-left-comment {
+    float: right;
+    margin-left: 20px;
+	margin-right:0;
+}
+/*Blog Section Css - Blog Right Sidebar, Blog Left Sidebar, Blog Full Width, Blog Detail Page------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.blog-post-date-area {
+    float: right;
+    margin: 0px 0 0 25px;
+}
+
+.blog-post-date-area .comment > a > i {
+    padding-left: 10px;
+	padding-right: 0;
+}
+
+.blog-lg-area-right {
+    padding: 0px 0px 60px 10px;
+}
+
+.blog-lg-area-left {
+    padding: 0px 10px 60px 0px;
+}
+
+.blog-lg-box {
+    margin: 0 0 0 0px;
+}
+
+.blog-post-lg a > img {
+    margin: 0 0 0 10px;
+}
+
+.blog-tags-lg i {
+    padding-left: 5px;
+	padding-right: 0;
+}
+
+.blog-post-lg a, .blog-tags-lg a {
+    padding: 5px 5px 5px 0px;
+}
+
+.blog-post-author {
+    float: right;
+}
+
+/*Blockquote*/
+
+.blog-blockquote blockquote {
+    border-right: 3px solid #ee591f;
+	border-left: none;
+}
+
+/*Image Paragraph Alignment*/
+.blog-paragraph-image {
+    margin: 15px 0 10px 10px;
+}
+
+.alignright {
+    float: right;
+}
+
+.blog-paragraph-image > .media > .alignright img {
+    margin-left: 30px;
+	margin-right: auto;
+}
+
+.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.alignleft {
+    float: left;
+}
+
+.blog-paragraph-image > .media > .alignleft img {
+    margin-right: 30px;
+	margin-left: auto;
+}
+
+/*Blog Author*/
+
+.blog-author {
+    margin: 0 0 50px 10px;
+}
+
+.blog-author img {
+    */
+    margin-right: 0px;
+    margin-left: 15px;
+	margin-right: auto;
+}
+
+.blog-author-social li {
+    margin-left: 0px;
+	margin-right: auto;
+}
+
+/*Comment Section*/
+.comment-section {
+    margin: 0 0 30px 10px;
+}
+
+.pull-right-comment {
+    float: right;
+    margin-left: 20px;
+	margin-right: auto;
+}
+
+.comment-detail {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+.comment-date {
+    padding-right: 0px;
+	padding-left: 0;
+}
+
+.reply {
+    float: left;
+}
+
+/*Comment Form*/
+
+.comment-form-section, .contact-form-section {
+    margin: 0 0 50px 10px;
+}
+
+.form-inline .blog-form-group, .form-inline .contact-form-group {
+    margin-left: 5px;
+	margin-right: auto;
+}
+
+/*Placeholder css*/
+
+/*Sidebar Section Css---------------------------------------------------------------------------------------------------*/
+.sidebar-section-left {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+.sidebar-section-right {
+    border-left: 1px dashed #c5d1dc;
+    margin-left: 0;
+    padding: 0 30px 0 30px;
+	margin-right: auto;
+	border-right: none;
+}
+
+/*Sidebar Search*/
+
+.sidebar-widget > .input-group > .input-group-addon {
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/*Sidebar Calendar*/
+
+/*Sidebar Latest Post*/
+
+.sidebar-blog-post span {
+    margin-left: 8px;
+	margin-right: auto;
+}
+
+.sidebar-post-area {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+/*Sidebar Links*/
+
+ul.post-content li {
+    margin-left: 0px;
+	margin-right: auto;
+}
+
+ul.post-content > li > a:before {
+    margin-left: 10px;
+    margin-right: 1px;
+}
+
+/*Sidebar Tags*/
+
+.sidebar-widget-tags a {
+    margin: 0 0 10px 5px;
+}
+
+/*Blog Pagination*/
+
+/*Contact Page Css--------------------------------------------------------------------------------------------*/
+
+/*404 Page Section-------------------------------------------------------------------------------------------*/
+
+a.error-btn:before {
+    margin-left: 5px;
+	margin-right: auto;
+}
+
+
+/*WordPress Default Classes----------------------------------------------------------------------------------*/
+
+img.alignright, .wp-caption.alignright {
+    margin-left: 30px;
+	margin-right: auto;
+}
+
+img.alignleft, .wp-caption.alignleft {
+    margin-right: 30px;
+    float: left;
+	margin-left: auto;
+}
+
+.wp-caption .wp-caption-text, .gallery-caption, .entry-caption {
+    clear: right;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignleft {
+    float: left;
+}
+
+a img.alignnone {
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignright {
+    float: right;
+}
+
+a img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Extra Css */ 
+
+.sidebar-widget ul {
+    margin: 0 !important 10px 0;
+}
+
+.sidebar-widget ul.children li a:before {
+    margin-left: 9px;
+	margin-right: auto;
+}
+
+.sidebar-widget > ul > li > a:before {
+    margin-left: 10px;
+    margin-right: 1px;
+}
+
+.sidebar-widget > .tagcloud a {
+    margin: 0 0 10px 5px;
+}
+
+#post-559 {
+    border-right: 22px solid #C6450C;
+	border-left: none;
+}
+
+.blog-post-lg ul > li , .blog-post-lg ol > li {
+    margin-right:20px;
+	margin-left: auto;
+}
+
+.blog-post-lg > img {
+    margin: 0 0 0 10px  ;
+}
+
+#post-559 {
+    border-right: 22px solid #C6450C;
+	border-left: none;
+}
+
+.tagcloud a {
+    margin: 0 0 9px 5px;
+}
+
+.tagcloud > ul > li > a:before {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.media-body input[type=submit],.sidebar-widget input[type=submit] {
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.appointment-search input {
+    padding: 8px 10px 8px 50px;
+}
+
+/* fade on slider */
+
+.carousel-fade .carousel-inner .active.right,
+.carousel-fade .carousel-inner .active.left {
+    right: 0;
+	left: auto;
+}
+
+.orange-widget-column > ul > li > a:before {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+/*Sidebar Search*/
+
+.orange-widget-column > .input-group > .input-group-addon {
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/*Sidebar Calendar*/
+
+/*Sidebar Tags*/
+
+.orange-widget-column-tags a {
+    margin: 0 0 10px 5px;
+}
+
+.orange-widget-column > .tagcloud a {
+    margin: 0 0 10px 5px;
+}
+
+.alignright {
+    float: right;
+    margin: .5em 0 .5em 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: .5em 20px .5em 0;
+}
+
+.blog-lg-area-right .wp-caption, .blog-lg-area-left .wp-caption, .blog-lg-area-full .wp-caption {
+    -moz-border-right-colors: none;
+    -moz-border-left-colors: none;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+/*--------Slider Fade Effect-----------*/
+.carousel.carousel-fade .item {
+    right: 0 !important;
+	left: auto;
+}
+
+.carousel.carousel-fade .active.right,
+.carousel.carousel-fade .active.left {
+    right: 0;
+	left: auto;
+}
+
+.carousel.carousel-fade .next,
+.carousel.carousel-fade .prev {
+    right: 0;
+	left: auto;
+}
+
+/*--------Slider Fade Effect-----------*/
+/*---------------------Theme Unit Data Testing by shahid-----June 13, 2015--------------------*/
+
+.alignright {
+    float: right;
+    margin: .5em 0 .5em 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: .5em 20px .5em 0;
+}
+
+.blog-lg-area-right .wp-caption, .blog-lg-area-left .wp-caption, .blog-lg-area-full .wp-caption {
+    -moz-border-right-colors: none;
+    -moz-border-left-colors: none;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.blog-lg-area-right dl, .blog-lg-area-left dl, .blog-lg-area-full dl {
+    margin-right: 10px;
+	margin-left: auto;
+}
+
+.blog-lg-area-right dl > dd, .blog-lg-area-left dl > dd, .blog-lg-area-full dl > dd {
+    margin-right: 10px;
+	margin-left: auto;
+}
+
+.pulse_wrapper {
+    right: 15px;
+	left: auto;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+	margin-right: auto;
+}
+
+.navbar > .container .navbar-brand {
+    margin-right: 0px;
+	margin-left: auto;
+}
+
+.navbar-inverse {
+    border-left: 0;
+    border-right: 0;
+}
+
+.navbar-wrapper {
+    left: 0;
+    right: 0;
+}
+
+.navbar .navbar-nav > li {
+    margin-left: 0px;
+    padding: 0 0px 0px 0;
+	margin-right: auto;
+}
+
+/*Dropdown Menus & Submenus Css----------------------------------------------------------*/
+
+.dropdown-submenu > .dropdown-menu {
+    right:100% !important;
+    margin-right:0px;
+	left: auto;
+	margin-left: auto;
+}
+
+.dropdown-submenu.pull-right > .dropdown-menu {
+    right:-100%;
+    margin-right:10px;
+	left: auto;
+	margin-left: auto;
+}
+
+.navbar-left .dropdown-menu {
+    right: 0;
+    left: 0;
+}
+.carou-direction-nav a:before {
+    content: '\f105';
+}
+.carou-direction-nav a.carou-next:before {
+    content: '\f104';
+	margin-left: 50%;
+    margin-right: 50%;
+}
+.navbar-default .navbar-nav > li > a {
+    font-family: 'Droid Arabic Kufi';
+    font-weight: normal;
+    text-align: right;
+}
+.dropdown-menu > li > a {
+    font-family: 'Droid Arabic Kufi';
+    font-weight: normal;
+    text-align: right;
+}
+@media (min-width: 768px){
+.navbar-nav > li {
+    float: right;
+}
+.navbar-header {
+    float: right;
+}
+.navbar-right {
+    float: left !important;
+    margin-left: -15px;
+	margin-right:0;
+	}
+}
+@media (min-width: 992px){
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: right;
+}
+}
+.media-left, .media > .pull-left {
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.media-left,
+.media > .pull-left {
+    padding-right: 10px;
+	padding-left: 0;
+}
+
+.media-right,
+.media > .pull-right {
+    padding-left: 10px;
+	padding-right: 0;
+}
+
+.media-list {
+    padding-right: 0;
+	padding-left: 0;
+}
+.sidebar-widget {
+    margin-top: 10px;
+}	

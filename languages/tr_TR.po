@@ -5,190 +5,183 @@ msgstr ""
 "Project-Id-Version: Codestar Framework 1.0.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/cs-framework\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Santiago Interactive <desk@santiagointeractive.com>\n"
-"Language-Team: \n"
-"X-Generator: Poedit 1.8\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
-"Language: ro\n"
 
 #: classes/framework.class.php:179
 msgid "Success. Imported backup options."
-msgstr "تنظیمات با موفقیت وارد شد."
+msgstr "Başarılı. Ayarlar yüklendi."
 
 #: classes/framework.class.php:184
 msgid "Default options restored."
-msgstr "تنظیمات به حالت پیش فرض باز گشت."
+msgstr "Ayarlar onarıldı."
 
 #: classes/framework.class.php:203
 msgid "Default options restored for only this section."
-msgstr "تنظیمات این قسمت به حالت پیش فرض باز گشت."
+msgstr "Bu bölüm içindeki ayarlar onarıldı."
 
 #: classes/framework.class.php:359
 msgid "Settings saved."
-msgstr "تنظیمات ذخیره شد."
+msgstr "Ayarlar kayıt edildi."
 
 #: classes/framework.class.php:360
 msgid "Save"
-msgstr "ذخیره"
+msgstr "Kaydet"
 
 #: classes/framework.class.php:360
 msgid "Saving..."
-msgstr "در حال ذخیره کردن"
+msgstr "Kayıt ediliyor..."
 
 #: classes/framework.class.php:361
 msgid "Restore"
-msgstr "بازگرداندن"
+msgstr "Onar"
 
 #: classes/framework.class.php:363
 msgid "show all options"
-msgstr "نمایش همه گزینه ها"
+msgstr "tüm ayarları göster"
 
 #: classes/options.class.php:126
 msgid "CONFIG"
-msgstr "پیکربندی"
+msgstr "AYARLAR"
 
 #: classes/options.class.php:132
 msgid "USAGE"
-msgstr "شکل استفاده"
+msgstr "KULLANIM"
 
 #: classes/options.class.php:138
 msgid "VALUE"
-msgstr "ارزش"
+msgstr "ÇIKTI"
 
 #: classes/options.class.php:211
 msgid "You are editing language: ( <strong>%s</strong> )"
-msgstr "شما در حال ویرایش زبان:  ( <strong>%s</strong> )"
+msgstr "Şu anda düzenlenen dil: ( <strong>%s</strong> )"
 
 #: classes/shortcode.class.php:82 classes/shortcode.class.php:90
 #: fields/textarea/textarea.php:27
 msgid "Add Shortcode"
-msgstr "اضافه کردن کد کوتاه"
+msgstr "Kısa Kod Ekle"
 
 #: classes/shortcode.class.php:92
 msgid "Select a shortcode"
-msgstr "انتخاب یک کد کوتاه"
+msgstr "Kısa kod seçiniz"
 
 #: classes/shortcode.class.php:108
 msgid "Insert Shortcode"
-msgstr "قرار دادن کد کوتاه"
+msgstr "Kısa kodu yerleştir"
 
 #: fields/background/background.php:31 fields/background/background.php:32
 #: fields/upload/upload.php:23 fields/upload/upload.php:24
 msgid "Upload"
-msgstr "بارگذاری"
+msgstr "Yükle"
 
 #: fields/background/background.php:33 fields/upload/upload.php:25
 msgid "Use Image"
-msgstr "استفاده از تصویر"
+msgstr "Resmi Kullan"
 
 #: fields/backup/backup.php:21
 msgid "Import a Backup"
-msgstr "وارد کردن پشتیبان"
+msgstr "Yedeklenmiş ayarları yükle"
 
 #: fields/backup/backup.php:22
 msgid "copy-paste your backup string here"
-msgstr "رشته پشتیبان گیری"
+msgstr "Buraya yedeklenen ayarları kopyala-yapıştır"
 
 #: fields/backup/backup.php:27
 msgid "Export and Download Backup"
-msgstr "صدور و دانلود پشتیبان"
+msgstr "Ayarları yedekle ve indir"
 
 #: fields/backup/backup.php:28
 msgid "or"
-msgstr "یا"
+msgstr "veya"
 
 #: fields/backup/backup.php:29
 msgid "!!! Reset All Options !!!"
-msgstr "!!! تنظیم مجدد همه گزینه !!!"
+msgstr "!!! Tüm Ayarları Sıfırla !!!"
 
 #: fields/backup/backup.php:30
 msgid "Please be sure for reset all of framework options."
-msgstr "لطفا مطمئن شوید برای تنظیم مجدد همه گزینه ها"
+msgstr "Tüm ayarları sıfırlamadan önce, bir kez daha düşünün."
 
 #: fields/gallery/gallery.php:21
 msgid "Add Gallery"
-msgstr "اضافه کردن گالری"
+msgstr "Galeri Ekle"
 
 #: fields/gallery/gallery.php:22
 msgid "Edit Gallery"
-msgstr "ویرایش گالری"
+msgstr "Galeriyi Düzenle"
 
 #: fields/gallery/gallery.php:23
 msgid "Clear"
-msgstr "پاک کردن"
+msgstr "Temizle"
 
 #: fields/group/group.php:21
 msgid "Adding"
-msgstr "اضافه کردن"
+msgstr "Ekleniyor"
 
 #: fields/group/group.php:43 fields/group/group.php:75
 msgid "Remove"
-msgstr "حذف"
+msgstr "Kaldır"
 
 #: fields/icon/icon.php:25 functions/actions.php:47
 msgid "Add Icon"
-msgstr "اضافه کردن آیکون"
+msgstr "İkon Ekle"
 
 #: fields/icon/icon.php:26
 msgid "Remove Icon"
-msgstr "حذف آیکون"
+msgstr "İkonu Kaldır"
 
 #: fields/image/image.php:22
 msgid "Add Image"
-msgstr "اضافه کردن تصویر"
+msgstr "Resim Ekle"
 
 #: fields/sorter/sorter.php:24
 msgid "Enabled Modules"
-msgstr "ماژولهای فعال"
+msgstr "Etkin Olanlar"
 
 #: fields/sorter/sorter.php:25
 msgid "Disabled Modules"
-msgstr "ماژول های غیر فعال"
+msgstr "Etkin Olmayanlar"
 
 #: fields/switcher/switcher.php:20
 msgid "on"
-msgstr "روشن"
+msgstr ""
 
 #: fields/switcher/switcher.php:20
 msgid "off"
-msgstr "خاموش"
+msgstr ""
 
 #: fields/typography/typography.php:73
 msgid "Web Safe Fonts"
-msgstr "فونت های وب"
+msgstr ""
 
 #: fields/typography/typography.php:79
 msgid "Google Fonts"
-msgstr "فونت های گوگل"
+msgstr ""
 
 #: fields/typography/typography.php:107
 msgid "Error! Can not load json file."
-msgstr "خطا! نمیتوان پروندهای JSON را بارگیری کرد."
+msgstr "Hata! json dosyası yüklenemiyor."
 
 #: functions/actions.php:48
 msgid "Search a Icon..."
-msgstr "جستجوی یک آیکون ..."
+msgstr "İkon ara..."
 
 #: functions/actions.php:49
 msgid "Loading..."
-msgstr "در حال بارگذاری ..."
+msgstr "Yükleniyor..."
 
 #: functions/helpers.php:48
 msgid "This field class is not available!"
-msgstr "این کلاس در دسترس نیست!"
+msgstr "Bu ayar kullanılabilir değil!"
 
 #: functions/validate.php:14
 msgid "Please write a valid email address!"
-msgstr "لطفا یک آدرس ایمیل معتبر بنویسید !"
+msgstr "Lütfen doğru bir e-posta adresi yazınız!"
 
 #: functions/validate.php:33
 msgid "Please write a numeric data!"
-msgstr "لطفا یک داده ی عددی بنویسید !"
+msgstr "Lütfen doğru bir numara yazınız!"
 
 #: functions/validate.php:51
 msgid "Fatal Error! This field is required!"
-msgstr "خطای جدی! این فیلد الزامی است!"
+msgstr "Hata! Bu alan gereklidir!"

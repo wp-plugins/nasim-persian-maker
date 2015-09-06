@@ -11,184 +11,184 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: Santiago Interactive <desk@santiagointeractive.com>\n"
 "Language-Team: \n"
-"X-Generator: Poedit 1.8\n"
+"X-Generator: Poedit 1.7.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 "Language: ro\n"
 
 #: classes/framework.class.php:179
 msgid "Success. Imported backup options."
-msgstr "تنظیمات با موفقیت وارد شد."
+msgstr "Opțiuni backup importate cu succes."
 
 #: classes/framework.class.php:184
 msgid "Default options restored."
-msgstr "تنظیمات به حالت پیش فرض باز گشت."
+msgstr "Opțiunile inițiale au fost restaurate."
 
 #: classes/framework.class.php:203
 msgid "Default options restored for only this section."
-msgstr "تنظیمات این قسمت به حالت پیش فرض باز گشت."
+msgstr "Opțiuni inițiale restaurate doar pentru această secțiune."
 
 #: classes/framework.class.php:359
 msgid "Settings saved."
-msgstr "تنظیمات ذخیره شد."
+msgstr "Setări salvate."
 
 #: classes/framework.class.php:360
 msgid "Save"
-msgstr "ذخیره"
+msgstr "Salvează"
 
 #: classes/framework.class.php:360
 msgid "Saving..."
-msgstr "در حال ذخیره کردن"
+msgstr "Se salvează..."
 
 #: classes/framework.class.php:361
 msgid "Restore"
-msgstr "بازگرداندن"
+msgstr "Restaurare"
 
 #: classes/framework.class.php:363
 msgid "show all options"
-msgstr "نمایش همه گزینه ها"
+msgstr "arată toate opțiunile"
 
 #: classes/options.class.php:126
 msgid "CONFIG"
-msgstr "پیکربندی"
+msgstr "CONFIGURARE"
 
 #: classes/options.class.php:132
 msgid "USAGE"
-msgstr "شکل استفاده"
+msgstr "UTILIZARE"
 
 #: classes/options.class.php:138
 msgid "VALUE"
-msgstr "ارزش"
+msgstr "VALOARE"
 
 #: classes/options.class.php:211
 msgid "You are editing language: ( <strong>%s</strong> )"
-msgstr "شما در حال ویرایش زبان:  ( <strong>%s</strong> )"
+msgstr "Editați limba: ( <strong>%s</strong> )"
 
 #: classes/shortcode.class.php:82 classes/shortcode.class.php:90
 #: fields/textarea/textarea.php:27
 msgid "Add Shortcode"
-msgstr "اضافه کردن کد کوتاه"
+msgstr "Adaugă shortcode"
 
 #: classes/shortcode.class.php:92
 msgid "Select a shortcode"
-msgstr "انتخاب یک کد کوتاه"
+msgstr "Selectați un shortcode"
 
 #: classes/shortcode.class.php:108
 msgid "Insert Shortcode"
-msgstr "قرار دادن کد کوتاه"
+msgstr "Inserare shortcode"
 
 #: fields/background/background.php:31 fields/background/background.php:32
 #: fields/upload/upload.php:23 fields/upload/upload.php:24
 msgid "Upload"
-msgstr "بارگذاری"
+msgstr "Încarcă"
 
 #: fields/background/background.php:33 fields/upload/upload.php:25
 msgid "Use Image"
-msgstr "استفاده از تصویر"
+msgstr "Utilizează imagine"
 
 #: fields/backup/backup.php:21
 msgid "Import a Backup"
-msgstr "وارد کردن پشتیبان"
+msgstr "Importă un backup"
 
 #: fields/backup/backup.php:22
 msgid "copy-paste your backup string here"
-msgstr "رشته پشتیبان گیری"
+msgstr "copiază și lipește șirul de backup aici"
 
 #: fields/backup/backup.php:27
 msgid "Export and Download Backup"
-msgstr "صدور و دانلود پشتیبان"
+msgstr "Exportă și descarcă backup"
 
 #: fields/backup/backup.php:28
 msgid "or"
-msgstr "یا"
+msgstr "sau"
 
 #: fields/backup/backup.php:29
 msgid "!!! Reset All Options !!!"
-msgstr "!!! تنظیم مجدد همه گزینه !!!"
+msgstr "Resetează toate opțiunile"
 
 #: fields/backup/backup.php:30
 msgid "Please be sure for reset all of framework options."
-msgstr "لطفا مطمئن شوید برای تنظیم مجدد همه گزینه ها"
+msgstr "Vă rugăm asigurați-va pentru resetarea tuturor opțiunilor."
 
 #: fields/gallery/gallery.php:21
 msgid "Add Gallery"
-msgstr "اضافه کردن گالری"
+msgstr "Adaugă galerie"
 
 #: fields/gallery/gallery.php:22
 msgid "Edit Gallery"
-msgstr "ویرایش گالری"
+msgstr "Editează galerie"
 
 #: fields/gallery/gallery.php:23
 msgid "Clear"
-msgstr "پاک کردن"
+msgstr "Golește"
 
 #: fields/group/group.php:21
 msgid "Adding"
-msgstr "اضافه کردن"
+msgstr "Se adaugă"
 
 #: fields/group/group.php:43 fields/group/group.php:75
 msgid "Remove"
-msgstr "حذف"
+msgstr "Șterge"
 
 #: fields/icon/icon.php:25 functions/actions.php:47
 msgid "Add Icon"
-msgstr "اضافه کردن آیکون"
+msgstr "Adaugă iconiță"
 
 #: fields/icon/icon.php:26
 msgid "Remove Icon"
-msgstr "حذف آیکون"
+msgstr "Șterge iconiță"
 
 #: fields/image/image.php:22
 msgid "Add Image"
-msgstr "اضافه کردن تصویر"
+msgstr "Adaugă imagine"
 
 #: fields/sorter/sorter.php:24
 msgid "Enabled Modules"
-msgstr "ماژولهای فعال"
+msgstr "Module activate"
 
 #: fields/sorter/sorter.php:25
 msgid "Disabled Modules"
-msgstr "ماژول های غیر فعال"
+msgstr "Module dezactivate"
 
 #: fields/switcher/switcher.php:20
 msgid "on"
-msgstr "روشن"
+msgstr "da"
 
 #: fields/switcher/switcher.php:20
 msgid "off"
-msgstr "خاموش"
+msgstr "nu"
 
 #: fields/typography/typography.php:73
 msgid "Web Safe Fonts"
-msgstr "فونت های وب"
+msgstr "Fonturi web"
 
 #: fields/typography/typography.php:79
 msgid "Google Fonts"
-msgstr "فونت های گوگل"
+msgstr "Fonturi Google"
 
 #: fields/typography/typography.php:107
 msgid "Error! Can not load json file."
-msgstr "خطا! نمیتوان پروندهای JSON را بارگیری کرد."
+msgstr "Eroare! Nu se poate încărca fișierul json."
 
 #: functions/actions.php:48
 msgid "Search a Icon..."
-msgstr "جستجوی یک آیکون ..."
+msgstr "Caută o iconiță..."
 
 #: functions/actions.php:49
 msgid "Loading..."
-msgstr "در حال بارگذاری ..."
+msgstr "Se încarcă..."
 
 #: functions/helpers.php:48
 msgid "This field class is not available!"
-msgstr "این کلاس در دسترس نیست!"
+msgstr "Clasa acestui câmp nu este disponibilă!"
 
 #: functions/validate.php:14
 msgid "Please write a valid email address!"
-msgstr "لطفا یک آدرس ایمیل معتبر بنویسید !"
+msgstr "Introduceți o adresă email validă!"
 
 #: functions/validate.php:33
 msgid "Please write a numeric data!"
-msgstr "لطفا یک داده ی عددی بنویسید !"
+msgstr "Introduceți o valoare numerică!"
 
 #: functions/validate.php:51
 msgid "Fatal Error! This field is required!"
-msgstr "خطای جدی! این فیلد الزامی است!"
+msgstr "Eroare! Acest câmp este obligatoriu!"

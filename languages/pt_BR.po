@@ -9,186 +9,186 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Santiago Interactive <desk@santiagointeractive.com>\n"
+"Last-Translator: Iolar Demartini Jr <iolardemartini@gmail.com>\n"
 "Language-Team: \n"
-"X-Generator: Poedit 1.8\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
-"Language: ro\n"
+"X-Generator: Poedit 1.8.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_BR\n"
 
-#: classes/framework.class.php:179
+#: classes/framework.class.php:176
 msgid "Success. Imported backup options."
-msgstr "تنظیمات با موفقیت وارد شد."
+msgstr "Backup importado com sucesso."
 
-#: classes/framework.class.php:184
+#: classes/framework.class.php:181
 msgid "Default options restored."
-msgstr "تنظیمات به حالت پیش فرض باز گشت."
+msgstr "Opções padrões restauradas."
 
-#: classes/framework.class.php:203
+#: classes/framework.class.php:200
 msgid "Default options restored for only this section."
-msgstr "تنظیمات این قسمت به حالت پیش فرض باز گشت."
-
-#: classes/framework.class.php:359
-msgid "Settings saved."
-msgstr "تنظیمات ذخیره شد."
-
-#: classes/framework.class.php:360
-msgid "Save"
-msgstr "ذخیره"
-
-#: classes/framework.class.php:360
-msgid "Saving..."
-msgstr "در حال ذخیره کردن"
-
-#: classes/framework.class.php:361
-msgid "Restore"
-msgstr "بازگرداندن"
+msgstr "Opções padrões restauradas apenas para esta seção."
 
 #: classes/framework.class.php:363
+msgid "Settings saved."
+msgstr "Configurações salvas."
+
+#: classes/framework.class.php:364
+msgid "Save"
+msgstr "Salvar"
+
+#: classes/framework.class.php:364
+msgid "Saving..."
+msgstr "Salvando..."
+
+#: classes/framework.class.php:365
+msgid "Restore"
+msgstr "Restaurar"
+
+#: classes/framework.class.php:367
 msgid "show all options"
-msgstr "نمایش همه گزینه ها"
+msgstr "Exibir/Ocultar Todas as Opções"
 
-#: classes/options.class.php:126
+#: classes/options.class.php:125
 msgid "CONFIG"
-msgstr "پیکربندی"
+msgstr "CONFIG"
 
-#: classes/options.class.php:132
+#: classes/options.class.php:131
 msgid "USAGE"
-msgstr "شکل استفاده"
+msgstr "USO"
 
-#: classes/options.class.php:138
+#: classes/options.class.php:137
 msgid "VALUE"
-msgstr "ارزش"
+msgstr "VALOR"
 
-#: classes/options.class.php:211
+#: classes/options.class.php:213
 msgid "You are editing language: ( <strong>%s</strong> )"
-msgstr "شما در حال ویرایش زبان:  ( <strong>%s</strong> )"
+msgstr "Você está editando o idioma: ( <strong>%s</strong> )"
 
 #: classes/shortcode.class.php:82 classes/shortcode.class.php:90
 #: fields/textarea/textarea.php:27
 msgid "Add Shortcode"
-msgstr "اضافه کردن کد کوتاه"
+msgstr "Adicionar Shortcode"
 
 #: classes/shortcode.class.php:92
 msgid "Select a shortcode"
-msgstr "انتخاب یک کد کوتاه"
+msgstr "Selecionar Shortcode"
 
 #: classes/shortcode.class.php:108
 msgid "Insert Shortcode"
-msgstr "قرار دادن کد کوتاه"
+msgstr "Inserir Shortcode"
 
 #: fields/background/background.php:31 fields/background/background.php:32
 #: fields/upload/upload.php:23 fields/upload/upload.php:24
 msgid "Upload"
-msgstr "بارگذاری"
+msgstr "Upload"
 
 #: fields/background/background.php:33 fields/upload/upload.php:25
 msgid "Use Image"
-msgstr "استفاده از تصویر"
+msgstr "Usar Imagem"
 
 #: fields/backup/backup.php:21
 msgid "Import a Backup"
-msgstr "وارد کردن پشتیبان"
+msgstr "Importar Backup"
 
 #: fields/backup/backup.php:22
 msgid "copy-paste your backup string here"
-msgstr "رشته پشتیبان گیری"
+msgstr "copiar e colar seu backup aqui"
 
 #: fields/backup/backup.php:27
 msgid "Export and Download Backup"
-msgstr "صدور و دانلود پشتیبان"
+msgstr "Exportar e Baixar Backup"
 
 #: fields/backup/backup.php:28
 msgid "or"
-msgstr "یا"
+msgstr "ou"
 
 #: fields/backup/backup.php:29
 msgid "!!! Reset All Options !!!"
-msgstr "!!! تنظیم مجدد همه گزینه !!!"
+msgstr "!!! Redefinir Todas as Opções !!!"
 
 #: fields/backup/backup.php:30
 msgid "Please be sure for reset all of framework options."
-msgstr "لطفا مطمئن شوید برای تنظیم مجدد همه گزینه ها"
+msgstr "ATENÇÃO! Isso irá substituir todas as opções salvas. Por favor, proceda com cuidado!"
 
 #: fields/gallery/gallery.php:21
 msgid "Add Gallery"
-msgstr "اضافه کردن گالری"
+msgstr "Adicionar Galeria"
 
 #: fields/gallery/gallery.php:22
 msgid "Edit Gallery"
-msgstr "ویرایش گالری"
+msgstr "Editar Galeria"
 
 #: fields/gallery/gallery.php:23
 msgid "Clear"
-msgstr "پاک کردن"
+msgstr "Limpar"
 
 #: fields/group/group.php:21
 msgid "Adding"
-msgstr "اضافه کردن"
+msgstr "Adicionando"
 
 #: fields/group/group.php:43 fields/group/group.php:75
 msgid "Remove"
-msgstr "حذف"
+msgstr "Remover"
 
-#: fields/icon/icon.php:25 functions/actions.php:47
+#: fields/icon/icon.php:25 functions/actions.php:55
 msgid "Add Icon"
-msgstr "اضافه کردن آیکون"
+msgstr "Adicionar Ícone"
 
 #: fields/icon/icon.php:26
 msgid "Remove Icon"
-msgstr "حذف آیکون"
+msgstr "Remover Ícone"
 
 #: fields/image/image.php:22
 msgid "Add Image"
-msgstr "اضافه کردن تصویر"
+msgstr "Adicionar Imagem"
 
 #: fields/sorter/sorter.php:24
 msgid "Enabled Modules"
-msgstr "ماژولهای فعال"
+msgstr "Módulos Habilitados"
 
 #: fields/sorter/sorter.php:25
 msgid "Disabled Modules"
-msgstr "ماژول های غیر فعال"
+msgstr "Módulos Desativados"
 
 #: fields/switcher/switcher.php:20
 msgid "on"
-msgstr "روشن"
+msgstr "on"
 
 #: fields/switcher/switcher.php:20
 msgid "off"
-msgstr "خاموش"
+msgstr "off"
 
 #: fields/typography/typography.php:73
 msgid "Web Safe Fonts"
-msgstr "فونت های وب"
+msgstr "Fontes Seguras da Web"
 
 #: fields/typography/typography.php:79
 msgid "Google Fonts"
-msgstr "فونت های گوگل"
+msgstr "Google Fontes"
 
-#: fields/typography/typography.php:107
+#: fields/typography/typography.php:107 functions/actions.php:30
 msgid "Error! Can not load json file."
-msgstr "خطا! نمیتوان پروندهای JSON را بارگیری کرد."
+msgstr "Erro! Não é possível carregar o arquivo."
 
-#: functions/actions.php:48
+#: functions/actions.php:56
 msgid "Search a Icon..."
-msgstr "جستجوی یک آیکون ..."
+msgstr "Procure um Ícone..."
 
-#: functions/actions.php:49
+#: functions/actions.php:57
 msgid "Loading..."
-msgstr "در حال بارگذاری ..."
+msgstr "Carregando…"
 
 #: functions/helpers.php:48
 msgid "This field class is not available!"
-msgstr "این کلاس در دسترس نیست!"
+msgstr "Esta classe não está disponível!"
 
 #: functions/validate.php:14
 msgid "Please write a valid email address!"
-msgstr "لطفا یک آدرس ایمیل معتبر بنویسید !"
+msgstr "Por favor, digite um endereço de e-mail válido!"
 
 #: functions/validate.php:33
 msgid "Please write a numeric data!"
-msgstr "لطفا یک داده ی عددی بنویسید !"
+msgstr "Por favor, digite apenas números!"
 
 #: functions/validate.php:51
 msgid "Fatal Error! This field is required!"
-msgstr "خطای جدی! این فیلد الزامی است!"
+msgstr "Este campo é obrigatório!"

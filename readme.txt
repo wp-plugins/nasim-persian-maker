@@ -1,6 +1,6 @@
 ﻿=== Nasim Persian Maker ===
 author: Nasim Net
-Contributors: nasimnet,hannanstd
+Contributors: nasimnet,elhambakhsh
 author URI: http://nasimnet.ir/
 Donate link: http://nasimnet.ir
 Tags: Persian, Theme Persian, Farsi,Persian Pack, fa_IR, rtl
@@ -12,14 +12,33 @@ License URI: http://nasimnet.ir
 “Nasim Persian Maker” can change the your theme into Persian and rtl
 
 == Description ==
-You can make the [Zerif Lite](https://wordpress.org/themes/zerif-lite/) theme Persian and rtl easily, by installing an activating “Nasim Persian Maker” plugin.
+You can make the your theme's Persian and rtl easily, by installing an activating “Nasim Persian Maker” plugin.
+
+= Persian Description =
+* با این افزونه می توانید به راحتی پوسته های خود را فارسی و راست چین کنید.
+
+= Features =
+* Language Compatiblity for your theme
+* rtl Compatiblity for your theme
+
+= Persian Features =
+* قابلیت افزودن بسته فارسی شخصی
+* محافظت از فایل زبان 
+* قابلیت شناسائی اتوماتیک پوسته و ترجمه خودکار
+* قابلیت افزودن بسته فارسی دلخواه
+* قابلیت تعویض فونت قسمت مدیریت سایت
+* قابلیت راست چین کردن بوت استراپ
+* قابلیت برون ریزی و درون ریزی تنظیمات افزونه
+
+
+= Themes =
+* BeTheme
+* Zrerif Lite
+* Brasserie
+* Appointment 
 
 = Support =
 *  [Nasim Net Team in nasimnet.ir](http://nasimnet.ir/)
-
-= Fa =
-* با سفارشی کردن این افزونه می توانید به راحتی برای پوسته های خود یک افزونه فارسی ساز طراحی کنید.
-* روش استفاده از این افزونه را در [توضیحات فارسی ساز نسیم](http://nasimnet.ir/nasim-persian-maker/) دنبال کنید.
 
 == Installation ==
 1. Install and Activate Zerif Lite theme
