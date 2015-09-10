@@ -268,13 +268,17 @@ if (!empty($mail_sender['npm_sw_email_sender'])) {
 }
 
 function new_mail_from($old) {
+    $mail_sender = cs_get_option('npm_email_sender');
     if (!empty($mail_sender['npm_mail_from'])) {
-       return $mail_sender['npm_mail_from'];
+        $m_sender = $mail_sender['npm_mail_from'];
+       return $m_sender;
     } 
 }
 function new_mail_from_name($old) {
+    $mail_sender = cs_get_option('npm_email_sender');
     if (!empty($mail_sender['npm_mail_from_name'])) {
-        return $mail_sender['npm_mail_from_name'];
+        $n_sender = $mail_sender['npm_mail_from_name'];
+        return $n_sender;
     } 
 }
 //Mail Persian Pack
