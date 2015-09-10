@@ -46,10 +46,15 @@ You can make the your theme's Persian and rtl easily, by installing an activatin
 3. Activate the plugin
 4. Enjoy It :)
 
-== Frequently Asked Questions ==
-= Where can I find more information and documentation about the plug-in? =
+== Screenshots ==
+1. Auto Persian
+2. Upload Persian Pack
+3. Dashboard
 
-You can read complete documentations on the [nasimnet.ir](http://nasimnet.ir)
-
-==Traducciones ==
-You can read complete documentations on the [nasimnet.ir](http://nasimnet.ir)
+== Changelog ==
+= 2.1 =
+* Change File Upload
+* Add Public Persian Pack
+* Add About Plugin
+* Add Email Sender
+* Fixed : Some Minor bugs
