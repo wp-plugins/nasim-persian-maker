@@ -38,7 +38,7 @@ You can make the your theme's Persian and rtl easily, by installing an activatin
 * Appointment 
 
 = Support =
-*  [Nasim Net Team in nasimnet.ir](http://nasimnet.ir/)
+*  [Nasim Net Team in nasimnet.ir](http://nasimnet.ir/nasim-persian-maker/)
 
 == Installation ==
 1. Install and Activate Zerif Lite theme
