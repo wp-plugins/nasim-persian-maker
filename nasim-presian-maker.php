@@ -3,7 +3,7 @@
 * Plugin Name: فارسی ساز نسیم
 * Plugin URI: http://nasimnet.ir
 * Description: با این افزونه به راحتی می تواید پوسته خود را فارسی و راست چین کنید.
-* Version: 2.0
+* Version: 2.1
 * Author: NasimNet
 * Author URI: http://nasimnet.ir
 * License: GPL2
