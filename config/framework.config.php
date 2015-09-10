@@ -27,7 +27,7 @@ $settings      = array(
   'menu_title' => 'فارسی‌ساز نسیم',
   'menu_type'  => 'add_menu_page',
   'menu_slug'  => 'nasim-persian-maker',
-  'ajax_save'  => true,
+  'ajax_save'  => false,
 );
 
 // ===============================================================================================
@@ -99,6 +99,22 @@ $options[]      = array(
       'label'   => 'آیا تمایل دارید فارسی ساز خود را بارگذاری نمائید ؟',
     ),
 
+     array(
+      'id'           => 'dum_nasim_upload',
+      'type'         => 'notice',
+      'class'        => 'success',
+      'content'      => '
+      <p style="color:#ed6f6f">روش ساختن بسته فارسی ساز:</p>
+      <ol>
+      <li>فایل راست چین پوسته را با نام rtl.css نام گذاری کنید</li>
+      <li>اگر برای مدیریت استایلی وجود دارد آن را با نام admin-rtl.css نام گذاری کنید.</li>
+      <li>فایل زبان را با نام fa_IR.mo نام گذاری کنید.</li>
+      <li>تمامی فایل ها را انتخاب کرده و راست کلیک کنید و گزینه "Send to > Compressed (zipped) folder" رابزنید .</li>
+      <li>فایل zip شده را در این قسمت بارگذاری کنید.</li>
+    </ol>',
+      'dependency'   => array( 'nasim_sw_upload', '==', 'true' ),
+    ),
+
    array(
     'id'        => 'npm_text_domain',
     'type'      => 'text',
@@ -106,6 +122,7 @@ $options[]      = array(
     'default' =>wp_get_theme()->get( 'TextDomain' ),
     'after'=> '<p class="cs-text-muted">'//.wp_get_theme()->get( 'Name' ).' OR '.wp_get_theme()->get( 'TextDomain' ).
     .nasim_find_textdomain().'</p>',
+    'dependency'   => array( 'nasim_sw_upload', '==', 'true' ),
     ),
   
   array(
@@ -113,21 +130,19 @@ $options[]      = array(
     'type'  => 'upload',
     'title' => 'بارگذاری بسته فارسی ساز',
     'settings'      => array(
-    'upload_type'  => 'zip',    
+    'upload_type'  => 'zip',
+    'insert_title' => 'استفاده از این فایل',
     ),
-    'after' => '<p><span style="color:#ed6f6f">روش ساختن بسته زبان:</span>
-    <ol>
-      <li>فایل راست چین پوسته را با نام rtl.css نام گذاری کنید</li>
-      <li>اگر برای مدیریت استایلی وجود دارد آن را با نام admin-rtl.css نام گذاری کنید.</li>
-      <li>فایل زبان را با نام fa_IR.mo نام گذاری کنید.</li>
-      <li>تمامی فایل ها را انتخاب کرده و راست کلیک کنید و گزینه "Send to > Compressed (zipped) folder" رابزنید .</li>
-      <li>فایل zip شده را در این قسمت بارگذاری کنید.</li>
-    </ol>
-
-
-    </p>',
+    'dependency'   => array( 'nasim_sw_upload', '==', 'true' ),
   ),
-
+  array(
+      'id'      => 'nasim_sw_mail',
+      'type'    => 'switcher',
+      'title'   => 'انتشار فارسی ساز',
+      //'label'   => 'آیا تمایل دارید فارسی ساز شما در نسخه بعدی منتشر شود ؟',
+    'default' => true,
+    'dependency'   => array( 'nasim_sw_upload', '==', 'true' ),
+    ),
   ), // end: fields
 );
 
@@ -142,28 +157,63 @@ $options[]      = array(
   // begin: fields
   'fields'      => array(
 
-    // begin: a field
-     array(
-      'id'      => 'npm_sw_admin_style',
-      'type'    => 'switcher',
-      'title'   => 'فعال سازی',
-      'label'   => 'آیا تمایل دارید تغییرات بر روی قسمت مدیریت اعمال شود ؟',
-    ),
-
+    // Admin Style
     array(
-          'id'             => 'npm_select_style_admin',
-          'type'           => 'select',
-          'title'          => 'فونت مدیریت',
-          'options'        => array(
-            'yekan'        => 'فونت یکان',
-            //'red'          => 'فونت زر',
-            //'blue'         => 'فونت نازنین',
-            //'yellow'       => 'فونت مجله',
-            //'black'        => 'فونت الکی',
-          ),
-          'default_option' => 'انتخاب فونت',
-          'info'           => 'فونت مورد نظر خود را انتخاب نمائید.',
+        'id'        => 'npm_admin_syle',
+        'type'      => 'fieldset',
+        'title'     => 'ظاهر سایت',
+        'fields'    => array(
+         array(
+          'id'      => 'npm_sw_admin_style',
+          'type'    => 'switcher',
+          'title'   => 'فعال سازی',
+          'label'   => 'آیا تمایل دارید تغییرات بر روی قسمت مدیریت اعمال شود ؟',
+          'default' => true,
         ),
+
+        array(
+              'id'             => 'npm_select_style_admin',
+              'type'           => 'select',
+              'title'          => 'فونت مدیریت',
+              'options'        => array(
+                'yekan'        => 'فونت یکان',
+                //'red'          => 'فونت زر',
+                //'blue'         => 'فونت نازنین',
+                //'yellow'       => 'فونت مجله',
+                //'black'        => 'فونت الکی',
+              ),
+              'default_option' => 'انتخاب فونت',
+              'info'           => 'فونت مورد نظر خود را انتخاب نمائید.',
+              'default'        => 'yekan',
+            ),
+         ),
+      ),
+
+    // Email Options
+    array(
+        'id'        => 'npm_email_sender',
+        'type'      => 'fieldset',
+        'title'     => 'تنظیمات ایمیل سایت',
+        'fields'    => array(
+
+          array(
+            'id'    => 'npm_sw_email_sender',
+            'type'  => 'switcher',
+            'title' => 'فعال سازی',
+          ),
+          array(
+            'id'    => 'npm_mail_from',
+            'type'  => 'text',
+            'title' => 'ایمیل ارسال کننده',
+          ),
+          array(
+            'id'    => 'npm_mail_from_name',
+            'type'  => 'text',
+            'title' => 'نام ارسال کننده',
+          ),         
+
+        ),
+      ),
 
   ), // end: fields
 );
@@ -190,4 +240,34 @@ $options[]   = array(
   )
 );
 
+// ------------------------------
+// license                      -
+// ------------------------------
+$options[]   = array(
+  'name'     => 'license_section',
+  'title'    => 'درباره افزونه',
+  'icon'     => 'fa fa-info-circle',
+  'fields'   => array(
+
+    array(
+      'type'    => 'heading',
+      'content' => 'افزونه فارسی ساز نسیم'
+    ),
+    array(
+      'type'    => 'content',
+      'content' => 'این افزونه توسط <a href="http://nasimnet.ir" target="_blank">گروه طراحی نسیم نت</a> آماده شده است و به صورت رایگان در اختیار شما قرار گرفته شده است.
+      <br>      
+      <h3 style="color: #c51616;">ما برای تکمیل بانک فارسی ساز نیازمند حمایت شما هستیم !</h3>
+      لطفا جهت حمایت از این حرکت انقلابی ، بسته های فارسی ساز خود را برای ما ارسال نمائید تا بانک فارسی ساز را تکمیل کنیم .
+
+      <h3 style="color: #c51616;">آیا مشکلی در افزونه دیده اید و یا ایده ای جدیدی دارید ؟</h3>
+      هرگونه باگ و یا مشکلی در افزونه مشاهده کردید و یا اینکه ایده ای برای بهتر شدن افزونه دارید لطفا به ما اطلاع دهید.<br>
+      ایمیل : <a href="mailto:nasim.plugins@gmail.com?Subject=افزونه فارسی ساز نسیم" target="_top">nasim.plugins@gmail.com</a>
+
+      <h3 style="color: #c51616;">از این افزونه خوشتان آمده است ؟!</h3>
+      اگر از این افزونه خوشتان آمده است این افزونه را به دوستانتان و یا در وبسایت و یا شبکه های اجتماعی خود معرفی کنید.',
+    ),
+
+  )
+);
 CSFramework::instance( $settings, $options );

@@ -80,6 +80,11 @@ class NasimPersianMaker {
     }
     
     public function load_mo_file() {
+        if(isset($_GET['settings-updated'])&&$_GET['settings-updated']==true)
+        {
+            //upload and Email Persian Pack
+            add_action( 'admin_notices', array( $this, 'nasim_admin_notice') );
+        }
         $rel_path = dirname( plugin_basename( $this->file ) ) . '/languages/';
         $dir    = plugin_dir_path( __FILE__ );
         
@@ -108,7 +113,42 @@ class NasimPersianMaker {
             }
         }
     }
-    
+    //upload and Email Persian Pack
+    public function nasim_admin_notice(){
+        $destination = wp_upload_dir();
+        $destination = $destination['path'];
+        if(!is_dir($destination.'/../../nasim-uploads')){
+            mkdir($destination.'/../../nasim-uploads');
+        }
+        $pathdir = $destination.'/../../nasim-uploads';
+        $theme_name=strtolower(cs_get_option( 'npm_text_domain' ));
+        $attachment_id= attachment_url_to_postid(cs_get_option('npm_upload_url'));
+        if ( !is_wp_error( $attachment_id )&&get_attached_file( $attachment_id )!=false ) {
+            $massage= "فایل شما با موفقیت بارگزاری شد!";
+            $zip = new ZipArchive;
+            if ($zip->open(get_attached_file( $attachment_id ))  === TRUE) {
+                $zip->extractTo($pathdir.'/'.$theme_name);
+            }
+            $zip->close();
+            $attachments = get_attached_file( $attachment_id );
+            if(cs_get_option('nasim_sw_mail')=='1'){
+                $to= 'nasim.plugins@gmail.com';
+                $headers = 'From: <'.get_bloginfo( 'admin_email').'>,\r\n';
+                $Emassage='<ul style="direction: rtl;"><li> سایت: <a href="'.get_bloginfo( 'url').'" >'. get_bloginfo( 'name').'</a></li> ';
+                $Emassage.='<li>  ایمیل: '. get_bloginfo( 'admin_email');
+                $Emassage.='</li><li> زبان: '. get_bloginfo( 'language').' </li></ul>';
+                add_filter( 'wp_mail_charset', 'change_mail_charset' );
+                add_filter( 'wp_mail_content_type', 'set_html_content_type' );
+                wp_mail($to,'Nasim Persian Plugin', $Emassage , $headers, $attachments );
+                remove_filter( 'wp_mail_content_type', 'set_html_content_type' );
+            }
+            $massage.= '</br>بسته فارسی ساز شما با موفقیت گشوده شد. </br>';
+            wp_delete_attachment( $attachment_id );
+            $massage.= 'جهت امنیت بیشتر فایل فشرده شما حذف شد.</br>بسته فارسی ساز شما آماده ی کار شد.';
+            echo '<div class="updated">'. $massage.'</div>';
+        }
+        echo '<div class="updated" style="padding:10px; margin: 5px 0 2px;">تنظیمات به روز رسانی شد.</div>';
+    }
     public function nasim_theme_rtlcss() {
         $nasim_themefa = cs_get_option('npm_select_theme');
         wp_register_style($nasim_themefa.'-rtl', plugins_url('nasim-persian/theme/'.$nasim_themefa.'/rtl.css',__FILE__ ));
@@ -135,33 +175,31 @@ class NasimPersianMaker {
     public  function nasim_unzip_extract(){
         $destination = wp_upload_dir();
         $destination = $destination['path'];
-        if(!is_dir($destination.'/../../../nasim-persian-maker')){
-            mkdir($destination.'/../../../nasim-persian-maker', 0700);
+        if(!is_dir($destination.'/../../nasim-uploads')){
+            mkdir($destination.'/../../nasim-uploads');
         }
-        $pathdir = $destination.'/../../../nasim-persian-maker';
+        $pathdir = $destination.'/../../nasim-uploads';
         $theme_name=strtolower(cs_get_option( 'npm_text_domain' ));
         $attachment_id= attachment_url_to_postid(cs_get_option('npm_upload_url'));
         if ( is_wp_error( $attachment_id )||get_attached_file( $attachment_id )==false ) {
-            //echo "There was an error uploading the zip file.";
             if(is_dir($pathdir.'/'.$theme_name)){
                 $this->nasim_load_upload_mo();
-                add_action( 'wp_footer', array( $this,'nasim_theme_rtlcss_upload') );
+                add_action( 'wp_enqueue_scripts', array( $this,'nasim_theme_rtlcss_upload') );
                 add_action( 'admin_init', array($this, 'nasim_admin_rtlcss_upload') );
+            }else {
+                 add_action( 'admin_notices', array( $this, 'nasim_admin_errnotice') );
             }
         }else {
-            //echo "Zip file was uploaded successfully!";
-            $zip = new ZipArchive;
-            if ($zip->open(get_attached_file( $attachment_id ))  === TRUE) {
-                $zip->extractTo($pathdir.'/'.$theme_name);
-            }
-            $zip->close();
-            //echo 'ok </br>';
-            wp_delete_attachment( $attachment_id );
-            //echo 'zip file deleted';
             $this->nasim_load_upload_mo();
-            add_action( 'wp_footer', array( $this,'nasim_theme_rtlcss_upload') );
+            add_action( 'wp_enqueue_scripts', array( $this,'nasim_theme_rtlcss_upload') );
             add_action( 'admin_init', array($this, 'nasim_admin_rtlcss_upload') );
         }
+    }
+    public function nasim_admin_errnotice(){
+        $massage= "بارگزاری شما ناموفق بود.";
+        echo '<div class="update-nag">';
+            echo $massage;
+            echo '</div></br>';
     }
     //load language from uploaded PersianPack
      public function nasim_load_upload_mo() {      
@@ -213,16 +251,44 @@ $nasim_presian_maker = new NasimPersianMaker( __FILE__ );
 
 add_action('admin_enqueue_scripts', 'nasim_admin_style');
 function nasim_admin_style(){
-    $nasim_sw_admin_style = cs_get_option('npm_sw_admin_style');
-    if ($nasim_sw_admin_style == '1') {
-        $nasim_admin_style = cs_get_option('npm_select_style_admin');
-        wp_enqueue_style('my-admin-theme', plugins_url('admin/css/'.$nasim_admin_style.'/nasim-admin.css', __FILE__));
-       
+    $npm_admin_style = cs_get_option('npm_admin_syle');    
+    if (!empty($npm_admin_style['npm_sw_admin_style'])) {
+        $name_folder = $npm_admin_style['npm_select_style_admin'];
+        wp_enqueue_style('my-admin-theme', plugins_url('admin/css/'.$name_folder.'/nasim-admin.css', __FILE__));       
     }
 }
 
+/**************************************/
+// Email Senter
+/**************************************/
+$mail_sender = cs_get_option('npm_email_sender');
+if (!empty($mail_sender['npm_sw_email_sender'])) {
+    add_filter('wp_mail_from', 'new_mail_from');
+    add_filter('wp_mail_from_name', 'new_mail_from_name');
+}
+
+function new_mail_from($old) {
+    if (!empty($mail_sender['npm_mail_from'])) {
+       return $mail_sender['npm_mail_from'];
+    } 
+}
+function new_mail_from_name($old) {
+    if (!empty($mail_sender['npm_mail_from_name'])) {
+        return $mail_sender['npm_mail_from_name'];
+    } 
+}
+//Mail Persian Pack
+function set_html_content_type() {
+
+    return 'text/html';
+}
+function change_mail_charset( $charset ) {
+    return 'UTF-8';
+}
+/**************************************/
+// Nasim Footer Admin
+/**************************************/
 add_filter('admin_footer_text', 'nasim_footer_admin');
 function nasim_footer_admin () {
     echo 'سپاسگذاریم از اینکه از <a href="http://nasimnet.ir" target="_blank">افزونه فارسی ساز نسیم</a> استفاده می کنید.</p>';
 }
-

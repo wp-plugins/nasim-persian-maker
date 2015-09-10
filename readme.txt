@@ -5,7 +5,7 @@ author URI: http://nasimnet.ir/
 Donate link: http://nasimnet.ir
 Tags: Persian, Theme Persian, Farsi,Persian Pack, fa_IR, rtl
 Requires at least: 3.0
-Tested up to: 4.2.3
+Tested up to: 4.3
 License: GPL2
 License URI: http://nasimnet.ir
 

@@ -7,7 +7,7 @@
  * @version 1.0.0
  *
  */
-defined( 'CS_VERSION' )     or  define( 'CS_VERSION',     '2.0' );
+defined( 'CS_VERSION' )     or  define( 'CS_VERSION',     '2.1' );
 defined( 'CS_TEXTDOMAIN' )  or  define( 'CS_TEXTDOMAIN',  'nasim-persian-maker' );
 defined( 'CS_OPTION' )      or  define( 'CS_OPTION',      '_cs_options' );
 defined( 'CS_CUSTOMIZE' )   or  define( 'CS_CUSTOMIZE',   '_cs_customize_options' );
