@@ -1,0 +1,938 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wallstreet\n"
+"POT-Creation-Date: 2015-06-19 16:54+0530\n"
+"PO-Revision-Date: 2015-08-17 23:47-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wordpress\\wp-content\\themes"
+"\\wallstreet-lite\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wordpress\\wp-content\\themes"
+"\\wallstreet-lite\n"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/404.php:9
+msgid "404"
+msgstr "خطای 404"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/404.php:10
+msgid "Oops! Page not found"
+msgstr "اوه! صفحه پیدا نشد"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/404.php:11
+msgid "We`re sorry, but the page you are looking for doesn`t exist."
+msgstr "با عرض پوزش. صفحه ای که شما به دنبال آن هستید وجود ندارد."
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/404.php:12
+msgid "Go Back"
+msgstr "برگشت"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/archive.php:11
+msgid "Daily Archives:"
+msgstr "آرشیو روزانه:"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/archive.php:13
+msgid "Monthly Archives:"
+msgstr "آرشیو ماهانه:"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/archive.php:15
+msgid "Yearly Archives:"
+msgstr "آرشیو سالانه:"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/archive.php:17
+msgid "Blog Archives"
+msgstr "آرشیو مطالب"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/archive.php:54
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/author.php:43
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/category.php:41
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/index.php:22
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/single.php:57
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/tag.php:42
+msgid "Previous"
+msgstr "قبلی"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/archive.php:55
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/author.php:44
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/category.php:42
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/index.php:23
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/single.php:58
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/tag.php:43
+msgid "Next"
+msgstr "بعدی"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/author.php:9
+#, php-format
+msgid "Author Archives: %s"
+msgstr "بایگانی نویسنده %s"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:2
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"این مطلب توسط رمز محافظت میشود. برای مشاهده همه ی دیدگاه ها رمز را وارد "
+"کنید."
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:12
+msgid "Reply"
+msgstr "پاسخ"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:24
+msgid "Posted on &nbsp;"
+msgstr "نوشته شده در &nbsp;"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:26
+msgid "Edit"
+msgstr "ویرایش"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:29
+msgid "Your comment is awaiting moderation."
+msgstr "نظر شما منتظر تایید مدیریت است."
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:40
+msgid "No Comments so far"
+msgstr "هیچ دیدگاهی تا کنون ثبت نشده است."
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:40
+msgid "1 Comment so far"
+msgstr "1 دیدگاه"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:40
+msgid "% Comments so far"
+msgstr "% دیدگاه"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:47
+msgid "Comment navigation"
+msgstr "منو ناوبری دیدگاه"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:48
+msgid "&larr; Older Comments"
+msgstr "&larr; دیدگاه های قدیمی"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:49
+msgid "Newer Comments &rarr;"
+msgstr "دیدگاه های جدیدتر&rarr;"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:53
+msgid "Comments are closed."
+msgstr "ارسال دیدگاه غیر فعال است."
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:57
+msgid "You must be"
+msgstr "شما باید"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:57
+msgid "logged in"
+msgstr "وارد شوید"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:57
+msgid "to post a comment"
+msgstr "برای ارسال یک نظر"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:65
+msgid "Name:"
+msgstr "نام:"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:66
+msgid "Email:"
+msgstr "ایمیل:"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:75
+msgid "Message:"
+msgstr "پیام:"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:76
+msgid "Logged in as "
+msgstr "وارد شده با نام"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:76
+msgid "Log out of this Account"
+msgstr "خروج از اکانت"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:76
+msgid " Log out?"
+msgstr "می خواهید خارج شوید؟"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:78
+msgid "Send Message"
+msgstr "ارسال پیام"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:81
+msgid "Leave a Reply"
+msgstr "دیدگاه خود را وارد کنید."
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/comments.php:92
+msgid "Comments Are Closed!!!"
+msgstr "دیدگاه‌ها بسته شده اند."
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/content.php:19
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/fullwidth.php:36
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/index-slider.php:22
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/index-slider.php:30
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/index-slider.php:38
+msgid "Read More"
+msgstr "ادامه مطلب"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/fullwidth.php:29
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/index-news.php:42
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/template-tag.php:19
+msgid "By"
+msgstr "توسط"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions.php:47
+msgid "Primary Menu"
+msgstr "منوی اصلی"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions.php:68
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/breadcrumbs/breadcrumbs.php:99
+msgid "Page"
+msgstr "صفحه"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions.php:81
+msgid "Facebook Profile URL"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions.php:82
+msgid "Twitter Profile URL"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions.php:83
+msgid "Linkedin Profile URL"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions.php:84
+msgid "Google Profile URL"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions.php:110
+msgid ""
+"\n"
+"\t\t\t\t\t\t   Read more"
+msgstr ""
+"\n"
+"\t\t\t\t\t\t  ادامه مطلب"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/header.php:48
+msgid "Toggle navigation"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/index-slider.php:20
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/index-slider.php:28
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/index-slider.php:36
+msgid "Powerful Bootstrap Theme"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/index-slider.php:21
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/index-slider.php:29
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/index-slider.php:37
+msgid ""
+"This is Mixed corporate layout with simple and clean design ready for "
+"professional business websites. Let us introduce core features of Mixed!"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/search.php:11
+#, php-format
+msgid "Search Results for: %s"
+msgstr "نتایج جستجو برای : %s"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/search.php:16
+msgid "Nothing Found"
+msgstr "با پوزش، چیزی یافته نشد."
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/search.php:18
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"متاسفانه چیزی مطابق با جستجوی شما یافت  نشد. لطفا از کلمات کلیدی دیگری برای "
+"جستجو استفاده کنید."
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/single.php:17
+msgid "About the Author"
+msgstr "درباره نویسنده"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/tag.php:9
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "آرشیو تگها: \"%s\""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:9
+msgid "Contact callout Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:15
+msgid "Contact call-out Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:34
+msgid "Hide Home Call-out Section"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:44
+msgid "Want to say Hey or find out more?"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:50
+msgid "Callout title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:58
+msgid ""
+"Reprehen derit in voluptate velit cillum dolore eu fugiat nulla pariaturs "
+"sint occaecat proidentse."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:64
+msgid "Callout Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:76
+msgid "Choose Background Image"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:87
+msgid "Button one"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:95
+msgid "Purshase Now!"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:104
+msgid "Purchase Now callout Button text"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:112
+msgid "Button two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:119
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:168
+msgid "#"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:127
+msgid "purchase callout Button Link"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:142
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:191
+msgid "Open link new tab/window"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:151
+msgid "Get in Touch!"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:160
+msgid "Get in Touch Button text"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-callout.php:176
+msgid "Get in Touch Button Link"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:7
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:13
+msgid "Footer Copyright Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:14
+msgid "This is a Footer section."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:24
+msgid "No copyright information has been saved yet."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:32
+msgid "Copyright text"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:46
+msgid "Hide copyright text"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:55
+msgid "Social Link "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:75
+msgid "Hide Footer Social Icons"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:93
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:207
+msgid "Facebook URL"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:109
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:143
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:176
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:210
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:244
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:223
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:258
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:292
+msgid "Open Link New tab/window"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:127
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:242
+msgid "Twitter URL"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:160
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:276
+msgid "Linkdin URL"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:194
+msgid "Google-plus URL"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-copyright.php:228
+msgid "Skype URL"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:9
+msgid "Header Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:13
+msgid "Custom Header Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:24
+msgid "Header Headline :"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:36
+msgid "Header Text :"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:44
+msgid "Header Logo setting"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:60
+msgid "Upload a 150x150 for Logo Image"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:78
+msgid "Enable/Disabe Logo"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:98
+msgid "Enter Logo Width"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:116
+msgid "Enter Logo Height"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:136
+msgid "Show Logo text"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:144
+msgid "Site favicon"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:146
+msgid "Upload a favicon"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:156
+msgid "Choose your favicon (ideal width and height is 16x16 or 32x32)"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:185
+msgid "Hide Social icons"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:298
+msgid "Custom css"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-header.php:309
+msgid "Custom css snippet:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:8
+msgid "Latest News Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:14
+msgid "Home Latest News Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:33
+msgid "Hide Home Index News Section"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:51
+msgid "Hide Blog Meta From News"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:61
+msgid "Latest News"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:67
+msgid "Latest News title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:75
+msgid ""
+"Duis aute irure dolor in reprehenderit in voluptate velit cillum dolore eu "
+"fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in "
+"culpa qui official deserunt mollit anim id est laborum."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:81
+msgid "Latest News Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:97
+msgid "Select Category for Latest News"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:107
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:118
+msgid "4"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:116
+msgid "Select Number of Post"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:118
+msgid "2"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:118
+msgid "6"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:118
+msgid "8"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:118
+msgid "10"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:118
+msgid "12"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:118
+msgid "14"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-news.php:118
+msgid "16"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-pro.php:13
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:431
+msgid "http://webriti.com/appointment/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-pro.php:13
+msgid "UPGRADE  TO PRO"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-pro.php:20
+msgid "UPGRADE  TO PRO VERSION"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-pro.php:33
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-pro.php:63
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-pro.php:96
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:454
+msgid "Discover Appointment Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-pro.php:48
+msgid "https://wordpress.org/support/view/theme-reviews/appointment#postform/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-pro.php:48
+msgid "ADD YOUR REVIEW"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-pro.php:77
+msgid "http://webriti.com/help/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-pro.php:77
+msgid "DOCUMENTATION"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-pro.php:81
+msgid ""
+"The Pro Version gives you more opportunities to improve your site and "
+"implicitly your business. Only through buying the pro version will you have "
+"the wide range of useful options and premium support necessary for a "
+"succesfull online project."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:8
+msgid "Service Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:13
+msgid "Service Heading "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:32
+msgid "Hide Home Service Section"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:41
+msgid "Our Services"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:49
+msgid "Service Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:58
+msgid ""
+"Duis aute irure dolor in reprehenderit in voluptate velit cillum dolore eu "
+"fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in "
+"culpa qui officia deserunt mollit anim id est laborum."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:65
+msgid "Service Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:74
+msgid "Service Section one"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:87
+msgid "Service icon"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:96
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:155
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:215
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:273
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:332
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:392
+msgid "Easy to Use"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:104
+msgid "Title one"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:113
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:172
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:232
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:290
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:350
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:410
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consec tetur "
+"adipisicing elit dignissim dapib tumst."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:121
+msgid "Description One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:129
+msgid "Service Section Two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:146
+msgid "Icon Two Like: fa-group"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:163
+msgid "Title two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:180
+msgid "Description two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:187
+msgid "Service Section Three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:205
+msgid "Icon three  Like: fa-group"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:223
+msgid "Title three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:240
+msgid "Description three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:248
+msgid "Service Section Four"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:264
+msgid "Icon Four  Like: fa-group"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:281
+msgid "Title four"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:298
+msgid "Description four"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:306
+msgid "Service Section Five"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:323
+msgid "Icon five Like: fa-group"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:340
+msgid "Title five"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:358
+msgid "Description five"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:365
+msgid "Service Section Six"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:383
+msgid "Icon six Like: fa-group"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:400
+msgid "Title six"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:418
+msgid "Description six"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:431
+msgid "Add more service get the Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-service.php:439
+msgid "Add More service"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:8
+msgid "Slider  Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:14
+msgid "Featured Slider Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:32
+msgid "Hide Home slider"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:53
+msgid "Select Slider type"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:56
+msgid "Demo Slider"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:57
+msgid "Category Slider"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:68
+msgid "Uncategorized"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:74
+msgid "Select Category for Slider"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:88
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:100
+msgid "slide"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:98
+msgid "Select slider Animation"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:100
+msgid "Fade"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:109
+msgid "2000"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:118
+msgid "Input slide Duration"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/custmizer/custmizer-slider.php:136
+msgid "Input Number of slides"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/menu/default_menu_walker.php:23
+msgid "Home"
+msgstr "خانه"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:17
+msgid "Appointment theme information widget."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:27
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:55
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:74
+msgid "Have a question? Call us now"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:28
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:67
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:83
+msgid "+82 334 843 52"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:29
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:61
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:77
+msgid "fa fa-phone"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:73
+msgid "Title:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:76
+msgid "Fontawesome icon:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:78
+msgid "Link to get fa-icon "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:78
+msgid "http://fortawesome.github.io/Font-Awesome/icons/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:78
+msgid "fa-icon"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/appointment_info_widget.php:82
+msgid "Description:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/sidebars.php:7
+msgid "Sidebar"
+msgstr "نوار کناری"
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/sidebars.php:9
+msgid "The primary widget area"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/sidebars.php:16
+msgid "Footer Widget Area"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/sidebars.php:18
+msgid "footer widget area"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/sidebars.php:26
+msgid "Homepage Orange Sidebar Left"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/sidebars.php:28
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/sidebars.php:37
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/sidebars.php:46
+msgid "Appointment Orange Sidebar Area"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/sidebars.php:35
+msgid "Homepage Orange Sidebar Right"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_custom_lite\wp-content\themes\appointment-lite/functions/widgets/sidebars.php:44
+msgid "Homepage Orange Sidebar Center"
+msgstr ""
+
+#~ msgid "Error 404"
+#~ msgstr "خطای 404"
+
+#~ msgid "Go to Homepage"
+#~ msgstr "بازگشت به صفحه اصلی"
+
+#~ msgid "Name"
+#~ msgstr "نام"
+
+#~ msgid "Email"
+#~ msgstr "ایمیل"
+
+#~ msgid "Comment"
+#~ msgstr "دیدگاه"
+
+#~ msgid "Post Comment"
+#~ msgstr "ارسال دیدگاه"
+
+#~ msgid "Posted By Admin"
+#~ msgstr "ارسال شده توسط admin"
+
+#~ msgid "at"
+#~ msgstr "در"
+
+#~ msgid "Option Panel"
+#~ msgstr "پنل تنظیمات"
+
+#~ msgid "Error -404"
+#~ msgstr "خطای 404"
+
+#~ msgid "Pages:"
+#~ msgstr "صفحات:"
+
+#~ msgid "Log out of this account"
+#~ msgstr "خروج از حساب کاربری"
+
+#~ msgid "Leave a Comment"
+#~ msgstr "ثبت نظر"
+
+#~ msgid "Page %s"
+#~ msgstr "صفحه %s"
+
+#~ msgid "Search Results For: %s"
+#~ msgstr "نتایج جستجو برای: %s"
+
+#~ msgid "Read more"
+#~ msgstr "ادامـــه"
+
+#~ msgid "Search results for "
+#~ msgstr "نتایج جستجو برای"
+
+#~ msgid "Error 404 "
+#~ msgstr "خطای 404"
+
+#~ msgid "Wallstreet Option Panel"
+#~ msgstr "پنل تنظیمات"
