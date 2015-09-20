@@ -52,6 +52,9 @@ You can make the your theme's Persian and rtl easily, by installing an activatin
 3. Dashboard
 
 == Changelog ==
+= 2.2 =
+* Fixed Bug Plugin
+
 = 2.1 =
 * Change File Upload
 * Add Public Persian Pack

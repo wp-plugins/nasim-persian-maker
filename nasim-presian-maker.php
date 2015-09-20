@@ -3,7 +3,7 @@
 * Plugin Name: فارسی ساز نسیم
 * Plugin URI: http://nasimnet.ir
 * Description: با این افزونه به راحتی می تواید پوسته خود را فارسی و راست چین کنید.
-* Version: 2.1
+* Version: 2.2
 * Author: NasimNet
 * Author URI: http://nasimnet.ir
 * License: GPL2
@@ -71,8 +71,8 @@ class NasimPersianMaker {
                 array_unshift( $plugins, $path );
                 $destination = wp_upload_dir();
                 $destination = $destination['path'];
-                if(!is_dir($destination.'/../../../nasim-persian-maker')){
-                    mkdir($destination.'/../../../nasim-persian-maker', 0700);
+                if(!is_dir($destination.'/../../nasim-uploads')){
+                    mkdir($destination.'/../../nasim-uploads');
                 }
                 update_option( 'active_plugins', $plugins );
             }
@@ -124,7 +124,7 @@ class NasimPersianMaker {
         $theme_name=strtolower(cs_get_option( 'npm_text_domain' ));
         $attachment_id= attachment_url_to_postid(cs_get_option('npm_upload_url'));
         if ( !is_wp_error( $attachment_id )&&get_attached_file( $attachment_id )!=false ) {
-            $massage= "فایل شما با موفقیت بارگزاری شد!";
+            $massage= "فایل شما با موفقیت بارگذاری شد!";
             $zip = new ZipArchive;
             if ($zip->open(get_attached_file( $attachment_id ))  === TRUE) {
                 $zip->extractTo($pathdir.'/'.$theme_name);
@@ -196,7 +196,7 @@ class NasimPersianMaker {
         }
     }
     public function nasim_admin_errnotice(){
-        $massage= "بارگزاری شما ناموفق بود.";
+        $massage= "بارگذاری شما ناموفق بود.";
         echo '<div class="update-nag">';
             echo $massage;
             echo '</div></br>';
@@ -205,9 +205,9 @@ class NasimPersianMaker {
      public function nasim_load_upload_mo() {      
         $destination = wp_upload_dir();
         $destination= $destination['path'];
-        $pathdir=$destination.'/../../../nasim-persian-maker';
+        $pathdir=$destination.'/../../nasim-uploads';
         $rel_path = content_url();
-        $pathurl=$rel_path.'/nasim-persian-maker/';
+        $pathurl=$rel_path.'/uploads/nasim-uploads/';
         $my_theme = wp_get_theme();
         $theme_name=strtolower(cs_get_option( 'npm_text_domain' ));
         if ( $this->language == null ) {
@@ -228,7 +228,7 @@ class NasimPersianMaker {
     //load rtl from uploaded PersianPack
     public function nasim_theme_rtlcss_upload(){
         $rel_path = content_url();
-        $pathurl=$rel_path.'/nasim-persian-maker/';
+        $pathurl=$rel_path.'/uploads/nasim-uploads/';
         $my_theme = wp_get_theme();
         $theme_name=strtolower(cs_get_option( 'npm_text_domain' ));
         wp_register_style('nasim-rtl', $pathurl.$theme_name.'/rtl.css' );
@@ -237,7 +237,7 @@ class NasimPersianMaker {
     ////load admin rtl from uploaded PersianPack
     public function nasim_admin_rtlcss_upload(){
         $rel_path = content_url();
-        $pathurl=$rel_path.'/nasim-persian-maker/';
+        $pathurl=$rel_path.'/uploads/nasim-uploads/';
         $my_theme = wp_get_theme();
         $theme_name=strtolower(cs_get_option( 'npm_text_domain' ));
         wp_register_style($theme_name.'-admin-rtl', $pathurl.$theme_name.'/admin-rtl.css');
